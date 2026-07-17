@@ -13,7 +13,10 @@ export default defineConfig({
 		defaultLocale: 'en',
 		locales: {
 			en: { label: 'English' },
-			fr: { label: 'Français', lang: "fr" }
+			fr: { label: 'Français', lang: "fr" },
+			ru: { label: 'Русский', lang: "ru" },
+			ua: { label: 'Українська', lang: "ua"}
+			
 		},
 
 		logo: {
