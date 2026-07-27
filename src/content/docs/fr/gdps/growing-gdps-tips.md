@@ -3,7 +3,9 @@ title: Développer votre GDPS et maintenir sa communauté
 description: Comment développer votre serveur privé Geometry Dash et maintenir sa communauté
 ---
 
-Si vous pensez que ce guide va vous donner un moyen simple et rapide de développer votre GDPS super facilement, arrêtez-vous là tout de suite. Même s'il y a énormément de méthodes pour développer votre GDPS, ça n'a d'importance que si vous y mettez de la constance, du temps et des efforts. Si votre GDPS est juste générique comme tous les autres, trouvez de quoi le rendre unique d'abord.
+:::caution
+Si vous pensez que ce guide va vous donner un moyen simple et rapide de développer votre GDPS super facilement, **arrêtez-vous là tout de suite**. Même s'il y a énormément de méthodes pour développer votre GDPS, ça n'a d'importance que si vous y mettez de la constance, du temps et des efforts. Si votre GDPS est juste générique comme tous les autres, *trouvez de quoi le rendre unique d'abord*.
+:::
 
 ## Développer votre GDPS
 Voici quelques moyens pour développer votre GDPS et atteindre une plus grande audience :
@@ -27,11 +29,13 @@ C'est bien de trouver des moyens de développer et de faire de la publicité pou
 
 Et enfin, n'oubliez pas d'écouter votre communauté ! Un owner qui écoute sa communauté et améliore son GDPS grâce à ses remarques sera toujours vu d'un bien meilleur œil qu'un owner qui ne l'écoute pas du tout.
 
-*Regarder les statistiques peut aussi beaucoup aider. Essayez de consulter fréquemment votre endpoint `dashboard/api/stats.php` :)*
+:::tip
+Regarder les statistiques peut aussi beaucoup aider. Essayez de consulter fréquemment votre endpoint `dashboard/api/stats.php` :)
+:::
 
 ## Remerciements
 J'aimerais remercier [Izumi de GD Lightsync](https://discord.gg/mvbjWdC6cF) et [Cirno de 1.3 GDPS](https://onepointthree.app/) pour avoir répondu à mes questions pour écrire ce guide !
 
 ---
 
-*Dernièrement mis à jour : 14 juillet 2026*
+*Dernièrement mis à jour : 27 juillet 2026*

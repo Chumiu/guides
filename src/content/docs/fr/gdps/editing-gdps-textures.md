@@ -3,9 +3,11 @@ title: Modifier les textures de votre GDPS
 description: Comment trouver et modifier les textures de votre serveur privé Geometry Dash
 ---
 
-Vous ne savez pas comment modifier les textures de votre GDPS ? Ce guide vous montrera comment faire !
+:::caution
+Ce guide ne vous montre **PAS** comment designer des textures !
+:::
 
-***Ce guide ne vous montre PAS comment designer des textures !***
+Vous ne savez pas comment modifier les textures de votre GDPS ? Ce guide vous montrera comment faire !
 
 ## Prérequis
 Pour pouvoir suivre le reste de ce guide, vous devez vous assurer que :
@@ -41,4 +43,4 @@ Commencez par la qualité High ! Comme ça, vous n'aurez qu'à redimensionner vo
 
 -----
 
-*Dernièrement mis à jour : 21 Juillet 2026*
+*Dernièrement mis à jour : 27 Juillet 2026*

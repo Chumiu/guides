@@ -3,7 +3,9 @@ title: Growing your GDPS & maintaining its playerbase
 description: How to grow your Geometry Dash Private Server and maintain its playerbase
 ---
 
-If you're thinking this guide will give you a quick and simple way to grow your GDPS super easily, stop right there. While there are a lot of ways to grow your GDPS, it only matters if consistency, time, and effort are put into it. If your GDPS is just a generic GDPS like any other, find stuff to make it stand out first.
+:::caution
+If you're thinking this guide will give you a quick and simple way to grow your GDPS super easily, **stop right there**. While there are a lot of ways to grow your GDPS, it only matters if consistency, time, and effort are put into it. If your GDPS is just a generic GDPS like any other, *find stuff to make it stand out first*.
+:::
 
 ## Growing your GDPS
 Here are some ways for you to grow your GDPS further and reach a wider audience:
@@ -27,11 +29,13 @@ Finding ways to grow and advertise your GDPS is great, but if you don't find way
 
 And finally, don't forget to listen to your own community! An owner who actively listens to their community to improve their GDPS will always be seen in a much better light than one who doesn't listen at all.
 
-*Looking at statistics can also help a ton. Try to frequently check your statistics endpoint over `dashboard/api/stats.php` :)*
+:::tip
+Looking at statistics can also help a ton. Try to frequently check your statistics endpoint over `dashboard/api/stats.php` :)
+:::
 
 ## Special Thanks
 I would like to thank [Izumi from GD Lightsync](https://discord.gg/mvbjWdC6cF) & [Cirno from 1.3 GDPS](https://onepointthree.app/) for answering my questions to write this guide!
 
 -----
 
-*Last updated: July 14th, 2026*
+*Last updated: July 27th, 2026*

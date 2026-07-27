@@ -3,13 +3,15 @@ title: Ajouter des Badges Personnalisés à votre GDPS
 description: Comment ajouter des badges personnalisés aux joueurs de votre GDPS en utilisant un mod Geode
 ---
 
+:::note
+Ce guide s'adresse principalement aux propriétaires et administrateurs de GDPS. Si vous êtes un simple joueur, attendez que le GDPS sur lequel vous jouez annonce sa compatibilité avec ce mod pour voir les badges en jeu.
+:::
+
 Ce guide vous montrera comment ajouter des badges personnalisés en jeu pour les joueurs de votre GDPS en utilisant le mod [GDPS Badges](https://geode-sdk.org/mods/m336.gdps-badges) !
 
 ![Preview du mod depuis le profil](../../../../assets/gdps/adding-custom-badges/preview-image.webp)
 
 ![Preview du mod depuis l'interface des badges](../../../../assets/gdps/adding-custom-badges/preview-image-2.webp)
-
-*Ce guide s'adresse principalement aux propriétaires et administrateurs de GDPS. Si vous êtes un simple joueur, attendez que le GDPS sur lequel vous jouez annonce sa compatibilité avec ce mod pour voir les badges en jeu.*
 
 ## Prérequis
 Pour suivre ce guide, vous aurez besoin de :
@@ -76,4 +78,4 @@ Il ne vous reste plus qu'à informer vos joueurs que votre GDPS est compatible a
 
 -----
 
-*Dernièrement mis à jour : 15 Juillet 2026*
+*Dernièrement mis à jour : 27 Juillet 2026*

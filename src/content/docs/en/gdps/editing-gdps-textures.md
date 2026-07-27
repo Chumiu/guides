@@ -3,9 +3,11 @@ title: Editing your GDPS textures
 description: How to find and edit your Geometry Dash Private Server textures
 ---
 
-Don't know how to edit the textures of the game for your GDPS? This guide will teach you how to do that!
+:::caution
+This guide does **NOT** teach you how to design textures!
+:::
 
-***This guide does NOT teach you how to design textures!***
+Don't know how to edit the textures of the game for your GDPS? This guide will teach you how to do that!
 
 ## Requirements
 To be able to follow the rest of this guide, you will need to make sure that:
@@ -38,4 +40,4 @@ Start with your High quality version first! That way, all you need to do is resi
 
 ---
 
-*Last updated: July 21st, 2026*
+*Last updated: July 27th, 2026*

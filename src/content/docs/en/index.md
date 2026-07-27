@@ -11,4 +11,8 @@ hero:
     - text: Check out GDPS Guides
       link: /en/gdps/custom-rate-button/
       icon: right-arrow
+    - text: Check the source code
+      link: https://github.com/M336G/guides
+      icon: github
+      variant: secondary
 ---

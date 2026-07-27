@@ -3,7 +3,7 @@
   "description": "Access a lot of different resources, mainly for GDPSs!",
   "author": "M336",
   "type": "module",
-  "version": "1.7.0",
+  "version": "2.0.0",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -13,8 +13,9 @@
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.3",
-    "@astrojs/starlight": "^0.41.3",
-    "astro": "^7.0.2",
+    "@astrojs/starlight": "^0.41.4",
+    "@catppuccin/starlight": "^2.1.0",
+    "astro": "^7.1.4",
     "sharp": "^0.34.5"
   }
 }

@@ -2,6 +2,7 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import sitemap from '@astrojs/sitemap';
+import starlightCatppuccin from '@catppuccin/starlight'
 
 // https://astro.build/config
 export default defineConfig({
@@ -10,6 +11,11 @@ export default defineConfig({
 	trailingSlash: 'always',
 
     integrations: [starlight({
+		plugins: [starlightCatppuccin({
+			dark: { flavor: "mocha", accent: "red" },
+			light: { flavor: "latte", accent: "maroon" }
+		})],
+
 		defaultLocale: 'en',
 		locales: {
 			en: { label: 'English' },
@@ -88,5 +94,5 @@ export default defineConfig({
                 ]
             }
         ],
-		}), sitemap()],
+		}), sitemap()]
 });

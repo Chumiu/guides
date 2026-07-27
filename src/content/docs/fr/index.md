@@ -8,7 +8,11 @@ hero:
   image:
     html: '<img src="/favicon.svg" alt="M336 logo" width="300" height="300" />'
   actions:
-    - text: Accéder aux guides pour GDPSs
+    - text: Accéder aux guides GDPSs
       link: /fr/gdps/custom-rate-button/
       icon: right-arrow
+    - text: Regarder le code source
+      link: https://github.com/M336G/guides
+      icon: github
+      variant: secondary
 ---

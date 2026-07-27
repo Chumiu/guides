@@ -31,7 +31,9 @@ Après avoir téléchargé le mod et redémarré le jeu, vous verrez un nouveau 
 - Cliquer sur le **bouton feature** détermine si le niveau est uniquement **rated**, **featured**, **epic**, **legendary** ou **mythic**
 - Cliquer sur le **bouton pièces** permet d'**activer** ou de **désactiver** la **collecte des pièces**
 
-*Si vous mettez le nombre d'étoiles à 0 et que vous cliquez sur Submit, ça unratera complètement le niveau, même si vous avez sélectionné une feature ou (dé)activé la collecte des pièces.*
+:::tip
+Si vous mettez le nombre d'étoiles à 0 et que vous cliquez sur Submit, ça unratera complètement le niveau, même si vous avez sélectionné une feature ou (dé)activé la collecte des pièces.
+:::
 
 ![Explications de chaque bouton](../../../../assets/gdps/custom-rate-button/button-explanations.webp)
 
@@ -45,4 +47,4 @@ Dans les paramètres du mod, vous pouvez aussi activer/désactiver ces boutons :
 
 -----
 
-*Dernièrement mis à jour : 12 Juillet 2026*
+*Dernièrement mis à jour : 27 Juillet 2026*

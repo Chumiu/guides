@@ -3,9 +3,11 @@ title: Enabling Level Info's Sent indicator
 description: How to configure Level Info's sent indicator to work on the GDPS you're playing on
 ---
 
-[Level Info](https://geode-sdk.org/mods/m336.levelinfo)'s sent indicator does not work natively on GDPSs and therefore requires manual configuration; this guide covers how to set it up!
+:::caution
+Currently, this method is "partially" supported by Level Info. Levels that aren't sent will display as "Failed", but levels that are sent will display as "Sent"
+:::
 
-*Currently, this method is "partially" supported by Level Info. Levels that aren't sent will display as "Failed", but levels that are sent will display as "Sent"*
+[Level Info](https://geode-sdk.org/mods/m336.levelinfo)'s sent indicator does not work natively on GDPSs and therefore requires manual configuration; this guide covers how to set it up!
 
 ## Find your GDPS' sends endpoint
 First, find the full URL to the `sends.php` endpoint. It's usually located under `dashboard/api`
@@ -24,4 +26,4 @@ Save/apply the settings. The sent indicator should now work again!
 
 -----
 
-*Last updated: July 14th, 2026*
+*Last updated: July 27th, 2026*

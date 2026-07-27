@@ -3,9 +3,11 @@ title: Activer l'indicateur Sent de Level Info
 description: Comment configurer l'indicateur "Sent" de Level Info pour fonctionner sur votre GDPS
 ---
 
-L'indicateur "Sent" de [Level Info](https://geode-sdk.org/mods/m336.levelinfo) ne fonctionne pas nativement sur les GDPSs et nécessite donc une configuration manuelle. Ce guide explique donc comment le configurer !
+:::caution
+Pour l'instant, Level Info ne supporte que "partiellement" cette méthode. Les niveaux non suggérés afficheront "Failed", tandis que les niveaux suggérés afficheront "Sent".
+:::
 
-*Pour l'instant, Level Info ne supporte que "partiellement" cette méthode. Les niveaux non suggérés afficheront "Failed", tandis que les niveaux suggérés afficheront "Sent".*
+L'indicateur "Sent" de [Level Info](https://geode-sdk.org/mods/m336.levelinfo) ne fonctionne pas nativement sur les GDPSs et nécessite donc une configuration manuelle. Ce guide explique donc comment le configurer !
 
 ## Trouver l'endpoint sends de votre GDPS
 Premièrement, trouvez l'URL complète de votre endpoint `sends.php`. Il se trouve généralement à `dashboard/api`.
@@ -24,4 +26,4 @@ Enfin, enregistrez/appliquez le changement. L'indicateur "Sent devrait maintenan
 
 -----
 
-*Dernièrement mis à jour : 14 Juillet 2026*
+*Dernièrement mis à jour : 27 Juillet 2026*

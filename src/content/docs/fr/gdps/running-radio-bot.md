@@ -51,7 +51,10 @@ exit(json_encode([
 ]));
 ?>
 ```
-*Le fichier doit être publiquement accessible (via HTTP/HTTPS).*
+
+:::caution
+Le fichier doit être publiquement accessible (via HTTP/HTTPS).
+:::
 
 **Exemple:** `https://m336test.ps.fhgdps.com/randomSong.php` (et `require "incl/lib/connection.php";`)
 
@@ -60,12 +63,16 @@ exit(json_encode([
 2. Ensuite, dans son dossier (décompressé), installez les dépendances avec `bun install` et remplissez le fichier `.env` selon vos besoins (voir [.env.example](https://github.com/M336G/gdps-radio-bot/blob/main/.env.example) pour un exemple)
 3. Enfin, démarrez le bot avec `bun run start` !
 
+:::tip
 **Assurez-vous que :**
 - Le bot soit en ligne sur Discord
 - Il joue de la musique dans le salon souhaité
+:::
 
 ## Empêcher l'invitation du bot par d'autres
+:::note
 Ceci est purement optionnel, car le bot ne fonctionnera pas sur les autres serveurs de toute façon, mais c'est une bonne étape finale pour conclure !
+:::
 
 Sur le [Discord Developer portal](https://discord.com/developers/applications), modifiez :
 - **Installation Context** en `Guild Install` uniquement (dans la catégorie Installation)
@@ -78,4 +85,4 @@ Sur le [Discord Developer portal](https://discord.com/developers/applications), 
 
 -----
 
-*Dernièrement mis à jour : 16 Juillet 2026*
+*Dernièrement mis à jour : 27 Juillet 2026*

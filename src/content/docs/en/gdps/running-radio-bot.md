@@ -50,7 +50,10 @@ exit(json_encode([
 ]));
 ?>
 ```
-*The file must be publicly accessible (via HTTP/HTTPS).*
+
+:::caution
+The file must be publicly accessible (via HTTP/HTTPS).
+:::
 
 **Example:** `https://m336test.ps.fhgdps.com/randomSong.php` (with `require "incl/lib/connection.php";`)
 
@@ -59,12 +62,16 @@ exit(json_encode([
 2. Then, in its (decompressed) folder, install dependencies with `bun install` and fill out a `.env` file according to your needs (check out [.env.example](https://github.com/M336G/gdps-radio-bot/blob/main/.env.example) for an example)
 3. Finally, start the bot with `bun run start`!
 
+:::tip
 **Make sure that:**
 - The bot is online on Discord
 - It plays songs in the desired channel
+:::
 
 ## Disallowing people from inviting the bot
+:::note
 This is purely optional, as the bot will not work on other servers anyways, but it's always a nice & final step to conclude all of this!
+:::
 
 On the [Discord Developer portal](https://discord.com/developers/applications), set:
 - **Installation Context** to `Guild Install` only (in the Installation category)
@@ -77,4 +84,4 @@ On the [Discord Developer portal](https://discord.com/developers/applications), 
 
 -----
 
-*Last updated: July 16th, 2026*
+*Last updated: July 27th, 2026*

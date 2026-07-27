@@ -31,7 +31,9 @@ Once you downloaded the mod and restarted your game, you'll notice a new blue bu
 - Clicking the **feature button** sets whether the level is only **rated**, **featured**, **epic**, **legendary** or **mythic**
 - Clicking the **coins button** toggles the **coins** being **verified** or **not**
 
-*If you set stars to 0 and click Submit, it'll fully unrate the level, even if you selected a feature tier or toggled coins.*
+:::tip
+If you set stars to 0 and click Submit, it'll fully unrate the level, even if you selected a feature tier or toggled coins.
+:::
 
 ![Explanations on each button](../../../../assets/gdps/custom-rate-button/button-explanations.webp)
 
@@ -45,4 +47,4 @@ In the mod settings, you can also toggle these additional buttons on/off:
 
 -----
 
-*Last updated: July 12th, 2026*
+*Last updated: July 27th, 2026*
