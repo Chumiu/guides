@@ -2,6 +2,7 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import sitemap from '@astrojs/sitemap';
+import starlightCatppuccin from '@catppuccin/starlight'
 
 // https://astro.build/config
 export default defineConfig({
@@ -10,13 +11,17 @@ export default defineConfig({
 	trailingSlash: 'always',
 
     integrations: [starlight({
+		plugins: [starlightCatppuccin({
+			dark: { flavor: "mocha", accent: "red" },
+			light: { flavor: "latte", accent: "maroon" }
+		})],
+
 		defaultLocale: 'en',
 		locales: {
 			en: { label: 'English' },
 			fr: { label: 'Français', lang: "fr" },
 			ru: { label: 'Русский', lang: "ru" },
-			ua: { label: 'Українська', lang: "ua"}
-			
+			ua: { label: 'Українська', lang: "ua" }
 		},
 
 		logo: {
@@ -50,41 +55,69 @@ export default defineConfig({
                 items: [
                     {
 						label: 'Custom RobTop-Like Rate Button',
-        				translations: { fr: 'Bouton de Rate Personnalisé' },
+        				translations: { 
+							fr: 'Bouton de Rate Personnalisé' ,
+							ru: 'Кастомная кнопка рейта, как у RobTop',
+							ua: 'Кастомна кнопка рейту, як у RobTop'
+						},
 						slug: 'gdps/custom-rate-button'
 					},
                     {
 						label: 'Publishing your GDPS (+ some tips)',
-        				translations: { fr: 'Mettre en ligne votre GDPS' },
+        				translations: { 
+							fr: 'Mettre en ligne votre GDPS',
+							ru: 'Публикация вашего GDPS (+ несколько советов)',
+							ua: 'Публікація вашого GDPS (+ кілька порад)'
+						},
 						slug: 'gdps/publishing-gdps-tips'
 					},
                     {
 						label: 'List of All Commands',
-        				translations: { fr: 'Listes de Toutes les Commandes' },
+        				translations: {
+							fr: 'Listes de Toutes les Commandes',
+							ru: 'Список всех команд',
+							ua: 'Список усіх команд'
+						},
 						slug: 'gdps/all-commands-list'
 					},
                     {
 						label: "Enabling Level Info's Sent indicator",
-        				translations: { fr: "Activer l'indicateur Sent Level Info" },
+        				translations: { 
+							fr: "Activer l'indicateur Sent Level Info",
+							ru: "Включение индикатора 'Level Info's Sent'",
+							ua: "Увімкнення індикатора 'Level Info's Sent'"
+						},
 						slug: 'gdps/levelinfo-sent-indicator'
 					},
                     {
 						label: "Growing your GDPS (+ some tips)",
-        				translations: { fr: "Développer votre GDPS" },
+        				translations: { 
+							fr: "Développer votre GDPS",
+							ru: "Развитие вашего GDPS (+ несколько советов)",
+							ua: "Розвиток вашого GDPS (+ кілька порад)"
+						},
 						slug: 'gdps/growing-gdps-tips'
 					},
                     {
 						label: "Adding Custom Badges to your GDPS",
-        				translations: { fr: "Ajouter des Badges Personnalisés" },
+        				translations: { 
+							fr: "Ajouter des Badges Personnalisés",
+							ru: "Добавление пользовательских значков",
+							ua: "Додавання користувацьких значків"
+						},
 						slug: 'gdps/adding-custom-badges'
 					},
                     {
 						label: "Running a 24/7 Discord Radio Bot",
-        				translations: { fr: "Avoir un bot Discord Radio 24/7" },
+        				translations: { 
+							fr: "Avoir un bot Discord Radio 24/7",
+							ru: "Запуск круглосуточного радио-бота в Discord",
+							ua: "Запуск цілодобового радіо-бота в Discord"
+						},
 						slug: 'gdps/running-radio-bot'
 					}
                 ],
             }
         ],
-		}), sitemap()],
+		}), sitemap()]
 });
