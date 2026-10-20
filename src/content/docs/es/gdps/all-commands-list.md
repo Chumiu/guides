@@ -47,7 +47,7 @@ Estos son todos los comandos disponibles en un GDPS usandl [ el fork de GMDpriva
 ### Administración
 | Comando | Permiso | Descripción |
 | --- | --- | --- |
-| `!setacc` / `!sa <username/account ID>` | `commandSetacc` | Cambia el creador del nivel. |
+| `!setacc` / `!sa <usuario/ID de cuenta>` | `commandSetacc` | Cambia el creador del nivel. |
 | `!lockUpdating` / `!lu` | `commandLockUpdating` | Previene que el creador actualice el nivel. |
 | `!unlockUpdating` / `!unlu` | `commandLockUpdating` | Permite al creator actualizar el nivel de nuevo. |
 | `!rename` / `!re <nombre>` | `commandRenameOwn` / `commandRenameAll` | Renombra el nivel. |
@@ -64,45 +64,45 @@ Estos son todos los comandos disponibles en un GDPS usandl [ el fork de GMDpriva
 
 ![Ejemplo de comando de nivel](../../../../assets/gdps/all-commands-list/level-command-example.webp)
 
-## List Commands
-These commands can be used in a list's comment section!
+## Comandos de Lista
+¡Estos comandos pueden ser usados en la sección de comentarios de las listas/lists!
 
-### Rating & Feature
+### Rating y Feature
+| Comando | Permiso | Descripción |
+| --- | --- | --- |
+| `!rate` / `!r <recompensa> <dificultad> <featured> <cantidad>` | `commandRate` | Rates la lista. `difficulty`: `auto`, `easy`, `normal`, `hard`, `harder`, `insane`, o `demon`. `featured`: `0` = solo rate, `1` = featured. `count`: niveles requeridos para completar la lista. Con solo `actionSuggestRating`, envía la lista en su lugar. [IDs de recompensas](#recompensas). |
+| `!feature` / `!f` | `commandFeature` | Le da featured a la lista. |
+| `!unfeature` | `commandFeature` | Remueve el featured. |
+
+### Administración
 | Command | Permission | Description |
 | --- | --- | --- |
-| `!rate` / `!r <reward> <difficulty> <featured> <count>` | `commandRate` | Rates the list. `difficulty`: `auto`, `easy`, `normal`, `hard`, `harder`, `insane`, or `demon`. `featured`: `0` = rated only, `1` = featured. `count`: levels required to beat for rewards. With only `actionSuggestRating`, it suggests it instead. [Reward IDs](#recompensas). |
-| `!feature` / `!f` | `commandFeature` | Features the list. |
-| `!unfeature` | `commandFeature` | Removes feature. |
+| `!rename` / `!re <nombre>` | `commandRenameOwn` / `commandRenameAll` | Renombea la lista. |
+| `!description` / `!desc <descripción>` | `commandDescriptionOwn` / `commandDescriptionAll` | Cambia la descripción de la lista. |
+| `!setacc` / `!sa <usuario/ID de cuenta>` | `commandSetacc` | Cambia el creador de la lista. |
+| `!unlist` | `commandUnlistOwn` / `commandUnlistAll` | Hace unlisted a la lista. Usa `!unlist 0` para público, `!unlist 1` para solo amigos. |
+| `!lockComments` / `!lc` | `commandLockCommentsOwn` / `commandLockCommentsAll` | Bloquea la lista de comentarios. |
+| `!unlockComments` / `!unlc` | `commandLockCommentsOwn` / `commandLockCommentsAll` | Desbloquea la lista de comentarios. |
+| `!delete` / `!d` | `commandDelete` | Elimina la lista. |
 
-### Management
-| Command | Permission | Description |
-| --- | --- | --- |
-| `!rename` / `!re <name>` | `commandRenameOwn` / `commandRenameAll` | Renames the list. |
-| `!description` / `!desc <description>` | `commandDescriptionOwn` / `commandDescriptionAll` | Changes the list's description. |
-| `!setacc` / `!sa <username/account ID>` | `commandSetacc` | Changes the list's creator. |
-| `!unlist` | `commandUnlistOwn` / `commandUnlistAll` | Makes the list unlisted. Use `!unlist 0` for public, `!unlist 1` for friends-only. |
-| `!lockComments` / `!lc` | `commandLockCommentsOwn` / `commandLockCommentsAll` | Locks comments on the list. |
-| `!unlockComments` / `!unlc` | `commandLockCommentsOwn` / `commandLockCommentsAll` | Unlocks comments on the list. |
-| `!delete` / `!d` | `commandDelete` | Deletes the list. |
+![Ejemplo de comando de lista](../../../../assets/gdps/all-commands-list/list-command-example.webp)
 
-![Example list command](../../../../assets/gdps/all-commands-list/list-command-example.webp)
+## Comandos de perfol
+¡Estos comandos se pueden usar en la sección de comentarios del perfil! Solo funciona si el GDPS soports vincular cuentas Discord.
 
-## Profile Commands
-These commands can be used under your profile's comment section! Only works if the GDPS supports linking Discord accounts.
-
-| Command | Description |
+| Comando | Descripción |
 | --- | --- |
-| `!discord link <discord ID>` | Starts the linking process and sends a 4-digit code to your DMs. |
-| `!discord accept <code>` | Links your profile to your Discord account if the code is valid. |
-| `!discord unlink` | Unlinks your profile from your Discord account. |
+| `!discord link <discord ID>` | Empieza el proceso de vinculación y envía un código de 4 dígitos a tus MDs. |
+| `!discord accept <code>` | Vincula tu perfil a tu cuenta de Discord si el código es válido. |
+| `!discord unlink` | Desvincula tu perfil de tu cuenta de Discord. |
 
-![Example profile command](../../../../assets/gdps/all-commands-list/profile-command-example.webp)
+![Ejemplo de comando de perfil](../../../../assets/gdps/all-commands-list/profile-command-example.webp)
 
 ## Recomoensas
-These are the IDs for each reward type.
+Estas son las IDs de cada tipo de recompensa.
 
-### Shard Rewards
-| ID | Reward |
+### Recompensas de Shards
+| ID | Recompensa |
 | --- | --- |
 | **1** | Fire Shard |
 | **2** | Ice Shard |
@@ -115,10 +115,10 @@ These are the IDs for each reward type.
 | **13** | Light Shard |
 | **14** | Soul Shard |
 
-### Icon Rewards
+### Recomoensas de Íconos
 | ID | Reward |
 | --- | --- |
-| **1001** | Cube |
+| **1001** | Cubo |
 | **1002** | Color 1 |
 | **1003** | Color 2 |
 | **1004** | Ship |
@@ -126,22 +126,22 @@ These are the IDs for each reward type.
 | **1006** | UFO |
 | **1007** | Wave (Dart) |
 | **1008** | Robot |
-| **1009** | Spider |
-| **1010** | Trail |
-| **1011** | Death Effect |
+| **1009** | Spider (Araña) |
+| **1010** | Trail (Estela) |
+| **1011** | Death Effect (Explosión) |
 | **1013** | Swing |
 | **1014** | Jetpack |
-| **1015** | Ship fire |
+| **1015** | Ship fire (Fuego de nave) |
 
-### Other Rewards
+### Otras Recompensas
 | ID | Reward |
 | --- | --- |
 | **6** | Demon Key |
-| **7** | Orbs |
-| **8** | Diamond |
+| **7** | Orbes |
+| **8** | Diamantes |
 | **15** | Gold Key |
-| **1012** | Items (keys, paths, gems, music hack, etc.) |
+| **1012** | Items (keys, paths, animaciones, music hack, etc.) |
 
 -----
 
-*Last updated: July 14th, 2026*
+*Última actualización: 20 de octubre, 2026*
