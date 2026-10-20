@@ -19,16 +19,16 @@ Estos son todos los comandos disponibles en un GDPS usandl [ el fork de GMDpriva
 | `!unsend` | `actionSuggestRating` | Cancela el envío del nivel completamente. |
 
 ### Feature
-| Command | Permission | Description |
+| Comando | Permiso | Descripción |
 | --- | --- | --- |
-| `!feature` / `!f` | `commandFeature` | Features the level. |
-| `!epic` | `commandEpic` | Makes the level epic. |
-| `!legendary` | `commandEpic` | Makes the level legendary. |
-| `!mythic` | `commandEpic` | Makes the level mythic. |
-| `!unfeature` | `commandFeature` | Removes feature. |
-| `!unepic` | `commandEpic` | Removes epic. |
-| `!unlegendary` | `commandEpic` | Removes legendary. |
-| `!unmythic` | `commandEpic` | Removes mythic. |
+| `!feature` / `!f` | `commandFeature` | Le da featured al nivel. |
+| `!epic` | `commandEpic` | Le da epic al nivel. |
+| `!legendary` | `commandEpic` | Le da legendary al nivel. |
+| `!mythic` | `commandEpic` | Le da mythic al nivel. |
+| `!unfeature` | `commandFeature` | Remueve el featured. |
+| `!unepic` | `commandEpic` | Remueve el epic. |
+| `!unlegendary` | `commandEpic` | Remueve el legendary. |
+| `!unmythic` | `commandEpic` | Remueve el mythic. |
 
 ### Daily
 | Command | Permission | Description |
