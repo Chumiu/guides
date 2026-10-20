@@ -1,22 +1,22 @@
 ---
-title: List of All Commands
-description: All commands you can use on a GDPS using MegaSa1nt's GMDprivateServer fork
+title: Lista de Todos los Comandos
+description: Todos los comands que puedes usar en un GDPS usando el fork de GMDprivateServer de MegaSa1nt
 ---
 
-These are all the commands available on a GDPS using [MegaSa1nt's GMDprivateServer fork](https://github.com/MegaSa1nt/GMDprivateServer/tree/master)!
+Estos son todos los comandos disponibles en un GDPS usandl [ el fork de GMDprivateServer de MegaSa1nt](https://github.com/MegaSa1nt/GMDprivateServer/tree/master)!
 
-*Some commands have optional arguments not listed here for simplicity.*
+*Algunos comandos tienen argumentos opcionales no listados aquí por simplicidad.*
 
-## Level Commands
-These commands can be used in a level's comment section!
+## Comandos de niveles
+¡Estos comandos pueden ser usados en la sección de comentarios de un nivel!
 
 ### Rating
-| Command | Permission | Description |
+| Comando | Permiso | Descripción |
 | --- | --- | --- |
-| `!rate` / `!r <difficulty> <stars> <coins> <feature>` | `commandRate` | Rates the level. `difficulty`: `auto`, `easy`, `normal`, `hard`, `harder`, `insane`, or `demon`. `coins`: `1` = on, `0` = off. `feature`: `0` = rated only, `1` = featured, `2` = epic, `3` = legendary, `4` = mythic. |
-| `!unrate` / `!unr` | `commandRate` | Unrates the level completely. |
-| `!send <difficulty> <stars> <feature>` | `actionSuggestRating` | Sends the level for rating. `difficulty`: `auto`, `easy`, `normal`, `hard`, `harder`, `insane`, or `demon`. `feature`: `0` = rated only, `1` = featured, `2` = epic, `3` = legendary, `4` = mythic. |
-| `!unsend` | `actionSuggestRating` | Unsends the level completely. |
+| `!rate` / `!r <dificultad> <estrellas> <coins> <feature>` | `commandRate` | Le da rate al nivel. `dificultad`: `auto`, `easy`, `normal`, `hard`, `harder`, `insane`, o `demon`. `coins`: `1` = activar, `0` = desactivar. `feature`: `0` = sólo rate, `1` = featured, `2` = epic, `3` = legendary, `4` = mythic. |
+| `!unrate` / `!unr` | `commandRate` | Le quita completamente rate al nivel. |
+| `!send <dificultad> <estrellas> <feature>` | `actionSuggestRating` | Envía el nivel para rate. `difficulty`: `auto`, `easy`, `normal`, `hard`, `harder`, `insane`, o `demon`. `feature`: `0` = solo rate, `1` = featured, `2` = epic, `3` = legendary, `4` = mythic. |
+| `!unsend` | `actionSuggestRating` | Cancela el envío del nivel completamente. |
 
 ### Feature
 | Command | Permission | Description |
