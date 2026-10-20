@@ -19,6 +19,7 @@ export default defineConfig({
 		defaultLocale: 'en',
 		locales: {
 			en: { label: 'English' },
+			es: { label: 'Español' },
 			fr: { label: 'Français', lang: "fr" },
 			ru: { label: 'Русский', lang: "ru" },
 			ua: { label: 'Українська', lang: "ua" }
@@ -56,6 +57,7 @@ export default defineConfig({
                     {
 						label: 'Custom RobTop-Like Rate Button',
         				translations: { 
+							es: 'Botón de Rate Personalizado estilo RobTop',
 							fr: 'Bouton de Rate Personnalisé' ,
 							ru: 'Кастомная кнопка рейта, как у RobTop',
 							ua: 'Кастомна кнопка рейту, як у RobTop'
@@ -65,6 +67,7 @@ export default defineConfig({
                     {
 						label: 'Publishing your GDPS (+ some tips)',
         				translations: { 
+							es: 'Publicar tu GDPS (+ algunos consejos)'
 							fr: 'Mettre en ligne votre GDPS',
 							ru: 'Публикация вашего GDPS (+ несколько советов)',
 							ua: 'Публікація вашого GDPS (+ кілька порад)'
@@ -74,6 +77,7 @@ export default defineConfig({
                     {
 						label: 'List of All Commands',
         				translations: {
+							es: 'Lista de Todos los Comandos',
 							fr: 'Listes de Toutes les Commandes',
 							ru: 'Список всех команд',
 							ua: 'Список усіх команд'
@@ -83,6 +87,7 @@ export default defineConfig({
                     {
 						label: "Enabling Level Info's Sent indicator",
         				translations: { 
+							es: "Activar el Indicador de Envío de Level Info",
 							fr: "Activer l'indicateur Sent Level Info",
 							ru: "Включение индикатора 'Level Info's Sent'",
 							ua: "Увімкнення індикатора 'Level Info's Sent'"
@@ -92,6 +97,7 @@ export default defineConfig({
                     {
 						label: "Growing your GDPS (+ some tips)",
         				translations: { 
+							es: "Hacer crecer tu GDPS (+ algunos consejos)",
 							fr: "Développer votre GDPS",
 							ru: "Развитие вашего GDPS (+ несколько советов)",
 							ua: "Розвиток вашого GDPS (+ кілька порад)"
@@ -101,6 +107,7 @@ export default defineConfig({
                     {
 						label: "Adding Custom Badges to your GDPS",
         				translations: { 
+							es: "Agregar Insignias Personalizadas a tu GDSP",
 							fr: "Ajouter des Badges Personnalisés",
 							ru: "Добавление пользовательских значков",
 							ua: "Додавання користувацьких значків"
@@ -110,6 +117,7 @@ export default defineConfig({
                     {
 						label: "Running a 24/7 Discord Radio Bot",
         				translations: { 
+							es: "Tener un Bot de Radio de Discord 24/7",
 							fr: "Avoir un bot Discord Radio 24/7",
 							ru: "Запуск круглосуточного радио-бота в Discord",
 							ua: "Запуск цілодобового радіо-бота в Discord"
