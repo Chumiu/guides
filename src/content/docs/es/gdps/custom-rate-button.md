@@ -43,8 +43,8 @@ En los ajustes del mod, puedes activar y desactivar estos botones adicionales:
 - El botón de **Set Week** permite colocar el nivel como el siguiente weekly (requiere el permiso`commandWeekly`)
 - El botón **Send Only** permite enviar el nivel en lugar de darle rate (requiere el permiso `actionSuggestRating`)
 
-![Additional features shown in the mod settings](../../../../assets/gdps/custom-rate-button/settings-for-additional-features.webp)
+![Características adicionales mostradas en los ajustes del mod](../../../../assets/gdps/custom-rate-button/settings-for-additional-features.webp)
 
 -----
 
-*Last updated: July 27th, 2026*
+*Última actualización: 20 de octubre, 2026*
