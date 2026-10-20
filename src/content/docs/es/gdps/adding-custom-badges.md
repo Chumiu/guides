@@ -1,33 +1,33 @@
 ---
-title: Adding Custom Badges to your GDPS
-description: How to add custom badges to players on your GDPS using a Geode mod
+title: Agregar Insignias Personalizadas a tu GDPS
+description: Cómo agregar insignias a jugadores en tu GDPS usando un mod de Geode
 ---
 
 :::note
-This is mostly intended for GDPS owners/administrators; if you are just a regular player, you should wait for your GDPS to announce compatibility with this mod to see custom badges added in-game.
+Esto está principalmente dirigido a owners/administradores de GDPSs; si eres solo un jugador regular, deberías esperar  a que tu GDPS anuncie compatibilidad con este mod para ver las insignias personalizadas agregadas dentro del juego.
 :::
 
-This guide will show you how to add custom badges to your players in-game using the [GDPS Badges mod](https://geode-sdk.org/mods/m336.gdps-badges)!
+Esta guía te mostrará cómo agregar insignias personalizadas a tus jugadores dentro del juego usando el mod [GDPS Badges](https://geode-sdk.org/mods/m336.gdps-badges)!
 
-![Preview of the mod from the profile](../../../../assets/gdps/adding-custom-badges/preview-image.webp)
+![Vistazo del mod desde el perfil](../../../../assets/gdps/adding-custom-badges/preview-image.webp)
 
-![Preview of the mod from the badges UI](../../../../assets/gdps/adding-custom-badges/preview-image-2.webp)
+![Vistazo del mod desde la interfaz de insignias](../../../../assets/gdps/adding-custom-badges/preview-image-2.webp)
 
-## Requirements
-To be able to follow the rest of this guide, you will need to make sure that:
-- You have full access to your GDPS' SFTP
-- You have designed some custom badges that you want to add (After all, that’s the point of this guide.. isn’t it? *The recommended resolution is 92x92, the mod only accepts the PNG format*)
+## Requisitos
+Para poder seguir el resto de esta guía, necesitarás estar seguro que:
+- Tienes acceso completo al SFTP de tu GDPS
+- Haz diseñado algunas Insignias que quieras agregar (Después de todo, ese es el punto de esta guía... cierto? *La resolución recomendada es 92x92, además el mod únicamente acepta el formato PNG*)
 
-## Creating badges.json
-In SFTP, go to the public root of your GDPS (usually `public_html`) and create a new folder called `badges`; this is where you will define properties for your badges and add their textures.
+## Crea badges.json
+En el SFTP, ve a la ruta pública de tu GDPS (usualmente es `public_html`) y crea una nueva carpeta llamada `badges`; ahí es donde vas a definir las propiedades para tus insignias y sus texturas.
 
-Inside the `badges` folder, create a `badges.json` file and fill it according to this example:
+Dentro de la carpeta `badges`, crea un archivo llamado `badges.json` y llénalo con base en este ejemplo:
 ```json
 [
     {
         "id": "owner",
         "name": "Owner",
-        "description": "This is the <cr>owner</c> of this GDPS!",
+        "description": "Este es el <cr>owner</c> de este GDPS!",
         "requirements": {
             "players": [ 72 ]
         }
@@ -35,7 +35,7 @@ Inside the `badges` folder, create a `badges.json` file and fill it according to
     {
         "id": "demon-grinder",
         "name": "Demon Grinder",
-        "description": "This player has beaten over <cr>2,500</c> demon levels!",
+        "description": "Este jugador ha completado mas de <cr>2,500</c> niveles demon!",
         "requirements": {
             "minDemons": 2500,
             "maxDemons": 9999
@@ -44,10 +44,10 @@ Inside the `badges` folder, create a `badges.json` file and fill it according to
 ]
 ```
 
-### Possible requirements
-| Property | Description | Example |
+### Posibles requisitos
+| Propiedad | Descripción | Ejemplo |
 | --- | --- | --- |
-| `players` | A whitelist of account IDs that can have the badge | `"players": [ 72, 73, 74 ]` |
+| `players` | Una whitelist de IDs de cuentas que pueden tener la insignia | `"players": [ 72, 73, 74 ]` |
 | `modBadge` | Add the custom badge if one of the mod badges is present. Can be either `leaderboard`, `elder` or `regular` | `"modBadge": "elder"` |
 | `minRank` | Minimum global rank required to have the badge | `"minRank": 1` |
 | `maxRank` | Maximum global rank allowed to have the badge | `"maxRank": 100` |
