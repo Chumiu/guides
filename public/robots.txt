@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://guides.m336.dev/sitemap-index.xml
+Llmstxt: https://guides.m336.dev/llms.txt
