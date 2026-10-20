@@ -66,15 +66,15 @@ Dentro de la carpeta `badges`, crea un archivo llamado `badges.json` y llénalo 
 Ahora, solo pon las texturas que tienes en la carpeta llamada `badges`.
 ¡Asegúrate que tengan el mismo nombre que la ID que pusiste a a respectiva insignia en `badges.json`!
 
-Por ejemplo, si quieres agregar la textura para la insignia de Demon Grinder badge, tienes que arrastrar y soltar el archivo nombrado como `demon-grinder.png`.
+Por ejemplo, si quieres agregar la textura para la insignia de Demon Grinder badge, tienes que arrastrar y soltar el archivo como se muestra abajo, nombrado como `demon-grinder.png`.
 ![Archivos en la carpeta de insignias en el SFTP](../../../../assets/gdps/adding-custom-badges/sftp-example.webp)
 
 ## Compartir el mod
 Ahora, simplemente informa a tus jugadores que tu GDPS es compatible con el mod:
-- Ya sea [descargando el mod manualmente](https://geode-sdk.org/mods/m336.gdps-badges) y in the Geode mods folder,
-- Or, in-game, downloading it **from the index** as shown below:
+- Ya sea [descargando el mod manualmente](https://geode-sdk.org/mods/m336.gdps-badges) y poniéndolo en la carpeta de mods de Geode,
+- O, dentro del juego, descargando este **desde el index** de Geode como se muestra aquí abajo:
 ![Downloading GDPS Badges from the Geode mods index](../../../../assets/gdps/adding-custom-badges/download-from-index.webp)
 
 -----
 
-*Last updated: July 27th, 2026*
+*Última actualización: 27 de Julio, 2026*
