@@ -77,4 +77,4 @@ Ahora, simplemente informa a tus jugadores que tu GDPS es compatible con el mod:
 
 -----
 
-*Última actualización: 27 de Julio, 2026*
+*Última actualización: 20 de octubre, 2026*
