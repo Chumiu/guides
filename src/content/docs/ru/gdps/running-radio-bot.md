@@ -77,4 +77,5 @@ exit(json_encode([
 
 -----
 
+*Перевела [elixia](https://t.me/elixiadev)*
 *Последнее обновление: 16 июля 2026*
