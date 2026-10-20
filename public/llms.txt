@@ -1,0 +1,22 @@
+# M336's Guides
+
+> Practical guides for running and growing a Geometry Dash Private Server (GDPS): server setup, Geode mods, commands, textures and community tools. Aimed at GDPS owners and players. Maintained by M336.
+
+All guides are available in English, French, Russian and Ukrainian. Replace `/en/` in any URL with `/fr/`, `/ru/` or `/ua/`.
+
+## GDPS Guides
+
+- [Custom RobTop-Like Rate Button](https://guides.m336.dev/en/gdps/custom-rate-button/): Get RobTop's official level-rating interface on a GDPS using a Geode mod
+- [Publishing your GDPS](https://guides.m336.dev/en/gdps/publishing-gdps-tips/): How to package your GDPS files (Geode folder cleanup, Globed server URL file) and which free file hosts to use for uploading them
+- [List of All Commands](https://guides.m336.dev/en/gdps/all-commands-list/): Every in-game command available on MegaSa1nt's GMDprivateServer fork
+- [Enabling Level Info's Sent indicator](https://guides.m336.dev/en/gdps/levelinfo-sent-indicator/): Set up the Level Info mod's "Sent" indicator on a GDPS
+- [Growing your GDPS](https://guides.m336.dev/en/gdps/growing-gdps-tips/): Ways to reach a wider audience and keep your playerbase
+- [Adding Custom Badges](https://guides.m336.dev/en/gdps/adding-custom-badges/): Give players custom in-game badges with the GDPS Badges mod
+- [Running a 24/7 Discord Radio Bot](https://guides.m336.dev/en/gdps/running-radio-bot/): Run a bot that plays random songs used on your GDPS
+- [Editing your GDPS textures](https://guides.m336.dev/en/gdps/editing-gdps-textures/): Edit and replace textures for your GDPS
+
+## Miscealleanous
+
+- [Homepage](https://guides.m336.dev/en/)
+- [Source code](https://github.com/M336G/guides)
+- Contact: [m336@m336.dev](mailto:m336@m336.dev), Discord `m336_`, Telegram `M336G`
