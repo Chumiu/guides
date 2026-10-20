@@ -1,17 +1,17 @@
 ---
-title: Growing your GDPS & maintaining its playerbase
-description: How to grow your Geometry Dash Private Server and maintain its playerbase
+title: Hacer crecer tu GDPS y mantener la base de jugadores
+description: Cómo hacer crecer tu Servidor Privado de Geometry Dash y mantener la base de jugadores
 ---
 
 :::caution
-If you're thinking this guide will give you a quick and simple way to grow your GDPS super easily, **stop right there**. While there are a lot of ways to grow your GDPS, it only matters if consistency, time, and effort are put into it. If your GDPS is just a generic GDPS like any other, *find stuff to make it stand out first*.
+Si piensas que esta guía te dará una rápida y simple manera de hacer crecer tu GDPS super fácil, **detente ahí**. Aunque hayan muchas formas de hacer crecer tu GDPS, lo que importa es si pones consistencia, tiempo, y esfuerzo en esto. Si tu GDPS es un GDPS genérico como cualquier otro, *primero encuentra maneras de hacerlo destacar*.
 :::
 
-## Growing your GDPS
-Here are some ways for you to grow your GDPS further and reach a wider audience:
-- **Social media:** This is probably the most popular option, but that doesn't make it an easy one. Nowadays, social media (mostly referring to YouTube, TikTok, & Instagram here) are filled with Geometry Dash content, so if you're looking for a way to advertise your GDPS on there, think first: "How could I create content for my GDPS that's unique enough for people to notice it? What do I need to do in order to keep people watching the content I publish?" It certainly isn't easy at first, but make sure to maintain consistency with your upload schedule and to post often!
-- **Modding:** This is one of the most efficient ways to make your GDPS stand out. Adding new features to your GDPS that almost no one has seen before helps a ton, and even making the game's UI much nicer overall will attract more people to your GDPS.
-- **GDPS Hub:** Posting your GDPS on [GDPS Hub](https://gdpshub.com/) is usually one of the main ways to help people discover your GDPS online (outside of Discord, basically). If your GDPS is original enough to be designated as the GDPS of the Month, it can also bring huge attention to it for that time period!
+## Hacer crecer tu GDPS
+Aquí hay varias maneras para que tu GDPS crezca y alcance una audiencia más amplia:
+- **Redes sociales:** Esta es probablemente la opinión más popular, pero no la hace la más fácil. Hoy en día, las redes sociales (aquí refiriéndose principalmente a YouTube, TikTok, e Instagram) están llenas de contenido de Geometry Dash, por lo que si estás buscando una manera de hacerle publicidad a tu GDPS ahí, primero pregunta: "¿Cómo puedo crear contenido para mi GDPS que sea lo suficientemente único para que la gente lo note? ¿Qué debo de que hacer para matener a la gente viendo el contenido que publico?" Realmente no es fácil al inicio, ¡pero asegúrate de mantener concistencia con tu horario de subida y publica cosas a menudo!
+- **Modificaciones/Modding:** Esta es una de las maneras más eficientes de hacer que tu GDPS destaque. Agregando nuevas características a tu GDPS que casi nadie más haya visto antes ayuda bastante, e incluso hacer que la interfaz del juego se vea mucho mejor sobretodo atraera más personas a tu GDPS.
+- **GDPS Hub:** Publicar tu GDPS en [GDPS Hub](https://gdpshub.com/) es usualmente de las maneras principales de ayudar a las personas a descubrir tu GDPS en línea (fuera de Discord, básicamente). ¡Si tu GDPS es lo suficientemente original para ser asignado como el GDPS del es, puede atraer mucha atención a este durante ese periodo de tiempo!
 - **Lists:** A lot of people are looking for GDPSs where they can beat hard levels and stay competitive with others when they couldn't on the normal Geometry Dash servers due to the immense skill level that's needed to even enter the top players leaderboard. Having lists also helps others notice cool levels on your GDPS before they even join, and players posting verifications/new records on YouTube can give passive attraction to your GDPS too!
 - **Contests:** Contests are a great way to attract creators to your GDPS, and even more so if they grant good rewards (such as Discord Nitro, Steam cards, etc.). Of course, you are not obligated to spend money to reward contest winners, but it is usually something that boosts their motivation and attraction to your GDPS quite a bit.
 - **Advertising channels:** Even if it may be one of the easiest and perhaps one of the most inefficient ways to advertise your GDPS due to the amount of people doing it every day, it's always a little plus to not forget to post your GDPS advertisement every X period!
@@ -34,7 +34,7 @@ Looking at statistics can also help a ton. Try to frequently check your statisti
 :::
 
 ## Special Thanks
-I would like to thank [Izumi from GD Lightsync](https://discord.gg/mvbjWdC6cF) & [Cirno from 1.3 GDPS](https://onepointthree.app/) for answering my questions to write this guide!
+Me gustaría agradecer a [Izumi de GD Lightsync](https://discord.gg/mvbjWdC6cF) y [Cirno de 1.3 GDPS](https://onepointthree.app/) por responder mis preguntas para escribir esta guía!
 
 -----
 
