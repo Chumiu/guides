@@ -21,38 +21,38 @@ description: Як запустити радіо-бота в Discord, який ц
 ![Генерація посилання для запрошення на порталі розробників Discord](../../../../assets/gdps/running-radio-bot/generating-invite-link.webp)
 
 ## Додавання кінцевої точки бота
-Додайте файл `randomSong.php` у будь-яке місце на SFTP-сервері GDPS **(не забудьте замінити рядок `require «path/to/incl/lib/connection.php»;` на правильний шлях на вашому сервері)**:
+Додайте файл `randomSong.php` у будь-яке місце на SFTP-сервері GDPS **(не забудьте замінити рядок `require "path/to/incl/lib/connection.php";` на правильний шлях на вашому сервері)**:
 ```php
 <?php
-header(«Content-Type: application/json»);
-header(«Access-Control-Allow-Origin: *»);
-header(«Access-Control-Allow-Methods: GET»);
+header("Content-Type: application/json");
+header("Access-Control-Allow-Origin: *");
+header("Access-Control-Allow-Methods: GET");
 
-require «path/to/incl/lib/connection.php»; // Змініть шлях у цьому рядку!
+require "path/to/incl/lib/connection.php"; // Змініть шлях у цьому рядку!
 
-$song = $db->prepare(«SELECT * FROM songs WHERE isDisabled = 0 AND download != „CUSTOMURL“ ORDER BY RAND() ASC LIMIT 1»);
+$song = $db->prepare("SELECT * FROM songs WHERE isDisabled = 0 AND download != 'CUSTOMURL' ORDER BY RAND() ASC LIMIT 1");
 $song->execute();
 $song = $song->fetch();
 
 $data = [
-    «ID» => $song[«ID»],
-    «author» => $song[«authorName»],
-    «name» => $song[«name»],
-    «download» => $song[«download»],
-    «reuploadID» => $song[«reuploadID»],
-    «reuploadTime» => $song[«reuploadTime»]
+    "ID" => $song["ID"],
+    "author" => $song["authorName"],
+    "name" => $song["name"],
+    "download" => $song["download"],
+    "reuploadID" => $song["reuploadID"],
+    "reuploadTime" => $song["reuploadTime"]
 ];
 
 exit(json_encode([
-    «dashboard» => true,
-    «success» => true,
-    «song» => $data
+    "dashboard" => true,
+    "success" => true,
+    "song" => $data
 ]));
 ?>
 ```
 *Файл має бути загальнодоступним (через HTTP/HTTPS).*
 
-**Приклад:** `https://m336test.ps.fhgdps.com/randomSong.php` (з `require «incl/lib/connection.php»;`)
+**Приклад:** `https://m336test.ps.fhgdps.com/randomSong.php` (з `require "incl/lib/connection.php";`)
 
 ## Завантаження та запуск бота
 1. [Завантажте репозиторій](https://github.com/M336G/gdps-radio-bot/archive/refs/heads/main.zip) на пристрій або сервер, здатний працювати цілодобово, або клонуйте його за допомогою команди: `git clone https://github.com/M336G/gdps-radio-bot.git`
