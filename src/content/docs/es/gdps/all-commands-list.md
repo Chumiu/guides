@@ -31,11 +31,11 @@ Estos son todos los comandos disponibles en un GDPS usandl [ el fork de GMDpriva
 | `!unmythic` | `commandEpic` | Remueve el mythic. |
 
 ### Daily
-| Command | Permission | Description |
+| Comando | Permiso | Descripción |
 | --- | --- | --- |
-| `!daily` / `!da` | `commandDaily` | Sets the level as the next daily. |
-| `!weekly` / `!w` | `commandWeekly` | Sets the level as the next weekly. |
-| `!event` / `!ev <minutes> <reward ID> <amount>` | `commandEvent` | Sets the level as the next event for the specified duration. Add multiple rewards: `!event <minutes> <reward ID> <amount> <reward ID> <amount>...` [Reward IDs](#rewards). |
+| `!daily` / `!da` | `commandDaily` | Coloca el nivel como el siguiente daily. |
+| `!weekly` / `!w` | `commandWeekly` | Coloca el nivel cono el siguiente weekly. |
+| `!event` / `!ev <minutos> <ID de recompensa> <cantidad>` | `commandEvent` | Coloca el nivel como el próximo event por la duración especificada. Agregar multiples recomoensas: `!event <minutos> <ID de recompensa> <cantidad> <ID de recompensa> <cantidad>...` [IDs de recomoensas](#rewards). |
 
 ### Coins & Creator Points
 | Command | Permission | Description |
