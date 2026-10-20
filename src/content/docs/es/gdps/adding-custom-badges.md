@@ -52,26 +52,26 @@ Dentro de la carpeta `badges`, crea un archivo llamado `badges.json` y llénalo 
 | `minRank` |  Global rank mínimo requerido para tener la insignia | `"minRank": 1` |
 | `maxRank` | Global rank máximo permitido para tener la insignia | `"maxRank": 100` |
 | `minStars` | Mínimo número de estrellas requerido para tener la insignia | `"minStars": 1000` |
-| `maxStars` | Maximum number of stars allowed to have the badge | `"maxStars": 5000` |
-| `minMoons` | Minimum number of moons required to have the badge | `"minMoons": 500` |
-| `maxMoons` | Maximum number of moons allowed to have the badge | `"maxMoons": 2000` |
-| `minGoldCoins` | Minimum number of secret coins required to have the badge | `"minGoldCoins": 50` |
-| `maxGoldCoins` | Maximum number of secret coins to have the badge | `"maxGoldCoins": 164` |
-| `minSilverCoins` | Minimum number of user coins required to have the badge | `"minSilverCoins": 100` |
-| `maxSilverCoins` | Maximum number of user coins allowed to have the badge | `"maxSilverCoins": 500` |
-| `minDemons` | Minimum amount of demons beaten required to have the badge | `"minDemons": 10` |
-| `maxDemons` | Maximum amount of demons beaten allowed to have the badge | `"maxDemons": 100` |
+| `maxStars` | Máximo número de estrellas permitido para tener la insignia | `"maxStars": 5000` |
+| `minMoons` | Mínimo número de lunas requerido para tener la insignia | `"minMoons": 500` |
+| `maxMoons` | Maximo número de lunas permitido para tener la insignia | `"maxMoons": 2000` |
+| `minGoldCoins` | Mínimo número de secret coins requerido para tener la insignia | `"minGoldCoins": 50` |
+| `maxGoldCoins` | Maximo número de secret coins para tener la insignia | `"maxGoldCoins": 164` |
+| `minSilverCoins` | Mínimo número de user coins requerido para tener la insignia | `"minSilverCoins": 100` |
+| `maxSilverCoins` | Maximo número de user coins permitido para tener la insignia | `"maxSilverCoins": 500` |
+| `minDemons` | Cantidad mínima de demons completados requerida para tener la insignia | `"minDemons": 10` |
+| `maxDemons` | Máxima cantidad de demons completados permitida para tener la insignia | `"maxDemons": 100` |
 
-## Adding the badge icons
-Now, just drag and drop the textures you have into the `badges` folder.
-Make sure that it has the same name as the ID you put for the respective badge in `badges.json`!
+## Agregar los iconos de las insignias
+Ahora, solo pon las texturas que tienes en la carpeta llamada `badges`.
+¡Asegúrate que tengan el mismo nombre que la ID que pusiste a a respectiva insignia en `badges.json`!
 
-For example, if you want to add the texture for the Demon Grinder badge above, you'd drag and drop a file named `demon-grinder.png`.
-![Files in the badge folder in SFTP](../../../../assets/gdps/adding-custom-badges/sftp-example.webp)
+Por ejemplo, si quieres agregar la textura para la insignia de Demon Grinder badge, tienes que arrastrar y soltar el archivo nombrado como `demon-grinder.png`.
+![Archivos en la carpeta de insignias en el SFTP](../../../../assets/gdps/adding-custom-badges/sftp-example.webp)
 
-## Sharing the mod
-Now, just inform your players that your GDPS is compatible with the mod:
-- Either by [downloading it manually](https://geode-sdk.org/mods/m336.gdps-badges) and putting it in the Geode mods folder,
+## Compartir el mod
+Ahora, simplemente informa a tus jugadores que tu GDPS es compatible con el mod:
+- Ya sea [descargando el mod manualmente](https://geode-sdk.org/mods/m336.gdps-badges) y in the Geode mods folder,
 - Or, in-game, downloading it **from the index** as shown below:
 ![Downloading GDPS Badges from the Geode mods index](../../../../assets/gdps/adding-custom-badges/download-from-index.webp)
 
