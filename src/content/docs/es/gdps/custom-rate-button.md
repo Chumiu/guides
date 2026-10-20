@@ -1,47 +1,48 @@
 ---
-title: Custom RobTop-Like Rate Button
-description: How to get a custom RobTop-like rate button to rate levels on a GDPS and more using a Geode mod
+title: Botón de Rate Personalizado
+description: 
+Como tener botón de rate estilo RobTop para ratear niveles en un GDPS y más, usando un mod de Geode
 ---
 
-This guide will show you how to get an interface like [the one RobTop uses](https://www.youtube.com/watch?v=_wmWuymEZDs) to rate levels on GDPSs, through a Geode mod!
-![Preview of the mod](../../../../assets/gdps/custom-rate-button/preview-image.webp)
+¡Esta guía te enseñará a tener una interfaz como la que [RobTop usa](https://www.youtube.com/watch?v=_wmWuymEZDs) para darle rate a niveles en GDPSs, mediante un mod de Geode!
+![Vistazo del mod](../../../../assets/gdps/custom-rate-button/preview-image.webp)
 
-## Introduction
-Now, this mod isn't limited to simply rating levels on GDPSs; it was also made for:
-- Rating levels without struggling to find which permissions are needed; internally, it uses the `!rate` & `!unrate` commands, but it adds a nice UI on top of them!
-- Being usable without a mod badge or clicking the "Req." button in the game's settings. You just need the [required permission](#requirements). *This even lets you rate levels if you have the Leaderboard Moderator badge!*
-- Being as intuitive as possible: each button is straightforward in what it does, with no hidden meaning
+## Introducción
+Ahora, este mod no se limita a simplemente darle rate a niveles en GDPSs; también está hecho para:
+- Darle rate a niveles sin complicarse encontrando qué permisos se necesitan; internamente, utiliza los comandos `!rate` y `!unrate`, ¡pero agrega una bonita interfaz sobre estos!
+- Ser usable sin una insignia de moderador y sin tener que clickear el botón "Req."  en los ajustes del juego. Solo necesitas el [permiso solicitado](#requisitos). *¡Esto incluso te permite dar rate a pesar de que tengas una insignia de Leaderboard Moderator!*
+- Ser lo más intuitivo posible: cada botón va directo al grano, sin nada que ocultar.
 
-## Requirements
-To be able to follow the rest of this guide, you will need to make sure that:
-- You are on a GDPS (*[GDPS Switcher](https://geode-sdk.org/mods/km7dev.gdps-switcher) also works*)
-- You have the `commandRate` permission enabled *(yep.. that's it)*
-- You use [Geode v5.7.1 or later](https://geode-sdk.org/install)
+## Requisitos
+Para poder seguir el resto de esta guía, debes estar seguro que:
+- Estás en un GDPS (*[GDPS Switcher](https://geode-sdk.org/mods/km7dev.gdps-switcher) también funciona*)
+- Tienes el permiso `commandRate` habilitado *(Y ya... eso es todo)*
+- Usas [Geode v5.7.1 o superior](https://geode-sdk.org/install)
 
-## Installing the mod
-Installing the mod is fairly simple!
-- Either [download it manually](https://geode-sdk.org/mods/m336.rate-button) and put it in the Geode mods folder,
-- Or, in-game, download it **from the index** as shown below:
-![Downloading Rate Button from the Geode mods index](../../../../assets/gdps/custom-rate-button/download-from-index.webp)
+## Instalar el mod
+¡Instalar el mod es realmente simple!
+- Puedes [descargarlo manualmente](https://geode-sdk.org/mods/m336.rate-button) y ponerlo en la carpeta de mods de Geode,
+- O, dentro del juego, descargalo **desde el index** de Geode como se muestra aquí abajo:
+![Descargando Rate Button desde el index de mods de Geode mods](../../../../assets/gdps/custom-rate-button/download-from-index.webp)
 
 
-## Using the mod
-Once you downloaded the mod and restarted your game, you'll notice a new blue button when you click on a level. This opens the interface for rating levels!
-- Clicking the **down** and **up** arrows **decreases** or **increases** the **amount of stars** that the level will have (the difficulty is set automatically based on that)
-- Clicking the **feature button** sets whether the level is only **rated**, **featured**, **epic**, **legendary** or **mythic**
-- Clicking the **coins button** toggles the **coins** being **verified** or **not**
+## Usando el Mod
+Una vez descargado el mod y que hayas reiniciado el juego, notarás un nuevo botón azul cuando entres en un nivel. ¡Esto abre la interfaz para darle rate a niveles!
+- Clickear en las flechas de **abajo** y **arriba**, **disminuye** o **incrementa** la **cantidad de estrellas** que el nivel tendrá (la dificultad se establece automáticamente basado en esto)
+- Clickear en el **botón de featured** establece si el nivel tiene únicamente **rate**, **featured**, **epic**, **legendary** o **mythic**
+- Clickear en el **botón de coins** alterna entre las **coins** **verificadas** y las que **no lo están**
 
 :::tip
-If you set stars to 0 and click Submit, it'll fully unrate the level, even if you selected a feature tier or toggled coins.
+Si colocas las estrellas del nivel en 0, este le quitará el rate al nivel completamente, incluso si tenía algún tipo de featured o las coins verificadas.
 :::
 
-![Explanations on each button](../../../../assets/gdps/custom-rate-button/button-explanations.webp)
+![Explicación de cada botón](../../../../assets/gdps/custom-rate-button/button-explanations.webp)
 
-## Additional features
-In the mod settings, you can also toggle these additional buttons on/off:
-- The **Set Daily** button allows you to set the level as the next daily level (requires the `commandDaily` permission)
-- The **Set Week** button allows you to set the level as the next weekly level (requires the `commandWeekly` permission)
-- The **Send Only** button allows you to suggest the level instead of rating it (requires the `actionSuggestRating` permission)
+## Características Adicionales
+En los ajustes del mod, puedes activar y desactivar estos botones adicionales:
+- El botón de **Set Daily** permite colocar el nivel como el siguiente daily (requiere el permiso `commandDaily`)
+- El botón de **Set Week** permite colocar el nivel como el siguiente weekly (requiere el permiso`commandWeekly`)
+- El botón **Send Only** permite enviar el nivel en lugar de darle rate (requiere el permiso `actionSuggestRating`)
 
 ![Additional features shown in the mod settings](../../../../assets/gdps/custom-rate-button/settings-for-additional-features.webp)
 
