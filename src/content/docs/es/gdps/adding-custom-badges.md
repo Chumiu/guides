@@ -7,7 +7,7 @@ description: Cómo agregar insignias a jugadores en tu GDPS usando un mod de Geo
 Esto está principalmente dirigido a owners/administradores de GDPSs; si eres solo un jugador regular, deberías esperar  a que tu GDPS anuncie compatibilidad con este mod para ver las insignias personalizadas agregadas dentro del juego.
 :::
 
-Esta guía te mostrará cómo agregar insignias personalizadas a tus jugadores dentro del juego usando el mod [GDPS Badges](https://geode-sdk.org/mods/m336.gdps-badges)!
+¡Esta guía te mostrará cómo agregar insignias personalizadas a tus jugadores dentro del juego usando el mod [GDPS Badges](https://geode-sdk.org/mods/m336.gdps-badges)!
 
 ![Vistazo del mod desde el perfil](../../../../assets/gdps/adding-custom-badges/preview-image.webp)
 
@@ -18,7 +18,7 @@ Para poder seguir el resto de esta guía, necesitarás estar seguro que:
 - Tienes acceso completo al SFTP de tu GDPS
 - Haz diseñado algunas Insignias que quieras agregar (Después de todo, ese es el punto de esta guía... cierto? *La resolución recomendada es 92x92, además el mod únicamente acepta el formato PNG*)
 
-## Crea badges.json
+## Crear badges.json
 En el SFTP, ve a la ruta pública de tu GDPS (usualmente es `public_html`) y crea una nueva carpeta llamada `badges`; ahí es donde vas a definir las propiedades para tus insignias y sus texturas.
 
 Dentro de la carpeta `badges`, crea un archivo llamado `badges.json` y llénalo con base en este ejemplo:
@@ -48,10 +48,10 @@ Dentro de la carpeta `badges`, crea un archivo llamado `badges.json` y llénalo 
 | Propiedad | Descripción | Ejemplo |
 | --- | --- | --- |
 | `players` | Una whitelist de IDs de cuentas que pueden tener la insignia | `"players": [ 72, 73, 74 ]` |
-| `modBadge` | Add the custom badge if one of the mod badges is present. Can be either `leaderboard`, `elder` or `regular` | `"modBadge": "elder"` |
-| `minRank` | Minimum global rank required to have the badge | `"minRank": 1` |
-| `maxRank` | Maximum global rank allowed to have the badge | `"maxRank": 100` |
-| `minStars` | Minimum number of stars required to have the badge | `"minStars": 1000` |
+| `modBadge` | Agrega la Insignia personalizada si una de las insignias de moderador está presente. Puede ser `leaderboard`, `elder` o `regular` | `"modBadge": "elder"` |
+| `minRank` |  Global rank mínimo requerido para tener la insignia | `"minRank": 1` |
+| `maxRank` | Global rank máximo permitido para tener la insignia | `"maxRank": 100` |
+| `minStars` | Mínimo número de estrellas requerido para tener la insignia | `"minStars": 1000` |
 | `maxStars` | Maximum number of stars allowed to have the badge | `"maxStars": 5000` |
 | `minMoons` | Minimum number of moons required to have the badge | `"minMoons": 500` |
 | `maxMoons` | Maximum number of moons allowed to have the badge | `"maxMoons": 2000` |
