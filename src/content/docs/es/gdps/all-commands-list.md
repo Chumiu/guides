@@ -35,34 +35,34 @@ Estos son todos los comandos disponibles en un GDPS usandl [ el fork de GMDpriva
 | --- | --- | --- |
 | `!daily` / `!da` | `commandDaily` | Coloca el nivel como el siguiente daily. |
 | `!weekly` / `!w` | `commandWeekly` | Coloca el nivel cono el siguiente weekly. |
-| `!event` / `!ev <minutos> <ID de recompensa> <cantidad>` | `commandEvent` | Coloca el nivel como el próximo event por la duración especificada. Agregar multiples recomoensas: `!event <minutos> <ID de recompensa> <cantidad> <ID de recompensa> <cantidad>...` [IDs de recomoensas](#rewards). |
+| `!event` / `!ev <minutos> <ID de recompensa> <cantidad>` | `commandEvent` | Coloca el nivel como el próximo event por la duración especificada. Agregar multiples recomoensas: `!event <minutos> <ID de recompensa> <cantidad> <ID de recompensa> <cantidad>...` [IDs de recomoensas](#recompensas). |
 
-### Coins & Creator Points
-| Command | Permission | Description |
+### Monedas y Creator Points
+| Comando | Permiso | Descripción |
 | --- | --- | --- |
-| `!verifycoins` / `!vc` | `commandVerify` | Verifies the level's coins. |
-| `!unverifycoins` | `commandVerify` | Unverifies the level's coins. |
-| `!sharecp <username>` | `commandSharecpOwn` / `commandSharecpAll` | Shares the level's creator points with another user. |
+| `!verifycoins` / `!vc` | `commandVerify` | Verifica las coins del nivel. |
+| `!unverifycoins` | `commandVerify` | Anula la verificación de las coins del nivel. |
+| `!sharecp <nombre de usuario>` | `commandSharecpOwn` / `commandSharecpAll` | Comparte los creator points del nivel con otro usuario. |
 
-### Management
-| Command | Permission | Description |
+### Administración
+| Comando | Permiso | Descripción |
 | --- | --- | --- |
-| `!setacc` / `!sa <username/account ID>` | `commandSetacc` | Changes the level's creator. |
-| `!lockUpdating` / `!lu` | `commandLockUpdating` | Prevents the creator from updating the level. |
-| `!unlockUpdating` / `!unlu` | `commandLockUpdating` | Allows the creator to update the level again. |
-| `!rename` / `!re <name>` | `commandRenameOwn` / `commandRenameAll` | Renames the level. |
-| `!description` / `!desc <description>` | `commandDescriptionOwn` / `commandDescriptionAll` | Changes the level's description. |
-| `!song` / `!s <song ID>` | `commandSongOwn` / `commandSongAll` | Changes the level's song. |
-| `!public` / `!pub` | `commandPublicOwn` / `commandPublicAll` | Makes the level public. |
-| `!unlist` | `commandUnlistOwn` / `commandUnlistAll` | Makes the level unlisted. |
-| `!ldm` | `commandLdmOwn` / `commandLdmAll` | Enables LDM on the level. |
-| `!unldm` | `commandLdmOwn` / `commandLdmAll` | Disables LDM on the level. |
-| `!password` / `!pass` / `!p <6 digits>` | `commandPassOwn` / `commandPassAll` | Sets the level's copy password. Submit `000000` to remove it. |
-| `!lockComments` / `!lc` | `commandLockCommentsOwn` / `commandLockCommentsAll` | Locks comments on the level. |
-| `!unlockComments` / `!unlc` | `commandLockCommentsOwn` / `commandLockCommentsAll` | Unlocks comments on the level. |
-| `!delete` / `!delet` / `!d` | `commandDelete` | Deletes the level. |
+| `!setacc` / `!sa <username/account ID>` | `commandSetacc` | Cambia el creador del nivel. |
+| `!lockUpdating` / `!lu` | `commandLockUpdating` | Previene que el creador actualice el nivel. |
+| `!unlockUpdating` / `!unlu` | `commandLockUpdating` | Permite al creator actualizar el nivel de nuevo. |
+| `!rename` / `!re <nombre>` | `commandRenameOwn` / `commandRenameAll` | Renombra el nivel. |
+| `!description` / `!desc <descripción>` | `commandDescriptionOwn` / `commandDescriptionAll` | Cambia la descripción del nivel. |
+| `!song` / `!s <song ID>` | `commandSongOwn` / `commandSongAll` | Cambia la canción del nivel. |
+| `!public` / `!pub` | `commandPublicOwn` / `commandPublicAll` | Hace público el nivel. |
+| `!unlist` | `commandUnlistOwn` / `commandUnlistAll` | Hace el nivel unlisted. |
+| `!ldm` | `commandLdmOwn` / `commandLdmAll` | Habilita el modo Low Detail en el nivel. |
+| `!unldm` | `commandLdmOwn` / `commandLdmAll` | Deshabilita el modo Low Detail en el nivel. |
+| `!password` / `!pass` / `!p <6 digitos>` | `commandPassOwn` / `commandPassAll` | Le coloca contraseña de copianal Nivel. Envía `000000` para removerla. |
+| `!lockComments` / `!lc` | `commandLockCommentsOwn` / `commandLockCommentsAll` | Bloquea los comentarios del nivel. |
+| `!unlockComments` / `!unlc` | `commandLockCommentsOwn` / `commandLockCommentsAll` | Desbloquea los comentarios del nivel. |
+| `!delete` / `!delet` / `!d` | `commandDelete` | Elimina el nivel. |
 
-![Example level command](../../../../assets/gdps/all-commands-list/level-command-example.webp)
+![Ejemplo de comando de nivel](../../../../assets/gdps/all-commands-list/level-command-example.webp)
 
 ## List Commands
 These commands can be used in a list's comment section!
@@ -70,7 +70,7 @@ These commands can be used in a list's comment section!
 ### Rating & Feature
 | Command | Permission | Description |
 | --- | --- | --- |
-| `!rate` / `!r <reward> <difficulty> <featured> <count>` | `commandRate` | Rates the list. `difficulty`: `auto`, `easy`, `normal`, `hard`, `harder`, `insane`, or `demon`. `featured`: `0` = rated only, `1` = featured. `count`: levels required to beat for rewards. With only `actionSuggestRating`, it suggests it instead. [Reward IDs](#rewards). |
+| `!rate` / `!r <reward> <difficulty> <featured> <count>` | `commandRate` | Rates the list. `difficulty`: `auto`, `easy`, `normal`, `hard`, `harder`, `insane`, or `demon`. `featured`: `0` = rated only, `1` = featured. `count`: levels required to beat for rewards. With only `actionSuggestRating`, it suggests it instead. [Reward IDs](#recompensas). |
 | `!feature` / `!f` | `commandFeature` | Features the list. |
 | `!unfeature` | `commandFeature` | Removes feature. |
 
@@ -98,7 +98,7 @@ These commands can be used under your profile's comment section! Only works if t
 
 ![Example profile command](../../../../assets/gdps/all-commands-list/profile-command-example.webp)
 
-## Rewards
+## Recomoensas
 These are the IDs for each reward type.
 
 ### Shard Rewards
