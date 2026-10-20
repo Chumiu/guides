@@ -1,7 +1,6 @@
 ---
 title: Botón de Rate Personalizado
-description: 
-Como tener botón de rate estilo RobTop para ratear niveles en un GDPS y más, usando un mod de Geode
+description: Como tener botón de rate estilo RobTop para ratear niveles en un GDPS y más, usando un mod de Geode
 ---
 
 ¡Esta guía te enseñará a tener una interfaz como la que [RobTop usa](https://www.youtube.com/watch?v=_wmWuymEZDs) para darle rate a niveles en GDPSs, mediante un mod de Geode!
