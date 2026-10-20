@@ -1,43 +1,41 @@
 ---
-title: Editing your GDPS textures
-description: How to find and edit your Geometry Dash Private Server textures
+title: Editar las texturas de tu GDPS
+description: cómo encontrar y editar las texturas de tu servidor privado de Geometry Dash
 ---
 
 :::caution
-This guide does **NOT** teach you how to design textures!
+Esta guía **NO** te enseña cómo diseñar texturas!
 :::
 
-Don't know how to edit the textures of the game for your GDPS? This guide will teach you how to do that!
+¿No sabes cómo editar las texturas del juego para tu GDPS? Esta guía te enseñará cómo hacerlo.
+## Requisitos
+Para poder seguir con el resto de la guía, debes estar seguro que:
+- Tienes un editor de imágenes (como [Photoshop](https://www.adobe.com/products/photoshop.html), [Pixlr](https://pixlr.com/), [ibisPaint X](https://ibispaint.com/productWin.jsp), [Krita](https://krita.org/), [GIMP](https://www.gimp.org/)...)
+- Tienes las textures/spritesheets base para hacerlo
 
-## Requirements
-To be able to follow the rest of this guide, you will need to make sure that:
-- You have an image editor (like [Photoshop](https://www.adobe.com/products/photoshop.html), [Pixlr](https://pixlr.com/), [ibisPaint X](https://ibispaint.com/productWin.jsp), [Krita](https://krita.org/), [GIMP](https://www.gimp.org/)...)
-- You have the base textures/spritesheets to work on
+## Encontrando las texturas
+Dirígete a la carpeta `Resources` de tu GDPS y encuentra las texturas que quieres editar. Verás que muchas de ellas están dentro de un gran archivo con muchas otras texturas. Esto se llama spritesheet.
 
-## Finding the textures
-Go into the `Resources` folder of your GDPS and find the textures you want to edit. You will see that most of them are inside a big file with a lot of other textures. This is called a spritesheet.
+![Encontrar las texturas dentro de la carpeta de recursos de tu GDPS](../../../../assets/gdps/editing-gdps-textures/finding-textures-resources.webp)
+Cada textura en Geometry Dash tiene tres versiones: una terminada en `-uhd` para los ajustes los gráficos de calidad "High" o alta, uba terminada en `-hd` para el ajuste de calidad "Medium" o media (y la única disponible en móviles), y otra que no termina en ningúna de las anteriores que es el ajuste de calidad Low o baja
+*Si la textura que quieres editar no está en una spritesheet, puedes editarla directamente y saltar el resto de esta guía (el [tip extra al final](#tip-extra) puede ser muy útil aún así!).*
 
-![Finding the textures inside the GDPS' Resources folder](../../../../assets/gdps/editing-gdps-textures/finding-textures-resources.webp)
-Each texture in Geometry Dash has three versions: one ending in `-uhd` for the High quality setting, one ending in `-hd` for the Medium quality setting (and the only one available on mobile), and one not ending with any of the above for the Low quality setting.
+## Extrayendo las texturas
+Para extreaer las texturas de una spritesheet, dirígete a [GDSplitter de GDColon](https://gdcolon.com/gdsplitter/) y simplemente arrastra los archivos PNG y PLIST del spritesheet que quieras editar. Dale algunos segundos para que cargue, y una vez importado, haz click en "Download all (.zip)".
+![Descargando y extrayendo las texturas del spritesheet](../../../../assets/gdps/editing-gdps-textures/downloading-spritesheet-textures.webp)
 
-*If the texture you want to edit is not in a spritesheet, you can edit it directly and skip the rest of this guide (the [extra tip at the end](#extra-tip) may still be useful though!).*
+Descomprime el archivo que acabas de descargar, ¡y ahora puedes modificar libremente las texturas que quieras! **Aunque, asegúrate de mantener la resolución de las mismas exactamente igual a como están.**
+![Texturas extraídas del spritesheet](../../../../assets/gdps/editing-gdps-textures/extracted-spritesheet-textures.webp)
 
-## Extracting the textures
-To extract textures from a spritesheet, go to [GDColon's GDSplitter](https://gdcolon.com/gdsplitter/) and simply drag and drop the PNG and PLIST files of the spritesheet you want to edit. Give it a few seconds to load, and once it's imported, click "Download all (.zip)".
-![Downloading & extracting the spritesheet textures](../../../../assets/gdps/editing-gdps-textures/downloading-spritesheet-textures.webp)
+## Reuniendo las texturas (merge)
+Cuando termines de editar las texturas que extraiste, regresa a [GDSplitter de GDColon](https://gdcolon.com/gdsplitter/) y esta vez haz click en "Merge sprites".
 
-Unzip the archive you've just downloaded, and now you can freely modify the textures you want! **However, make sure to keep the resolution and the names exactly the same.**
-![Extracted spritesheet textures](../../../../assets/gdps/editing-gdps-textures/extracted-spritesheet-textures.webp)
+Importa todas las texturas desde el folder extraído, haz click en "Continue", asegurate de ingresar el nombre del spritesheet original sin su extensión y to selecciona la resolución correcta para tus texturas, ¡y crea el spritesheet!
+![Unir de nuevo las texturas del spritesheet](../../../../assets/gdps/editing-gdps-textures/merging-spritesheet-textures.webp)
 
-## Merging the textures
-Once you're finished editing the spritesheet you've just extracted, go back to [GDColon's GDSplitter](https://gdcolon.com/gdsplitter/) and this time click on "Merge sprites".
-
-Import all the textures from the extracted folder, click "Continue", make sure to enter the name of the original spritesheet without the extension and to select the right resolution for your textures, and create the spritesheet!
-![Merging back the spritesheet textures](../../../../assets/gdps/editing-gdps-textures/merging-spritesheet-textures.webp)
-
-## Extra tip
-Start with your High quality version first! That way, all you need to do is resize the texture to the correct resolution for the Medium and Low quality versions.
+## Tip extra
+Primero comienza con la calidad "High"! De esa forma todo lo que necesitas hacer es cambiar el tamaño de la textura a su resolución correcta para las versiones de calidad "Medium" y "Low".
 
 ---
 
-*Last updated: July 27th, 2026*
+*Última actualización: 20 de octubre, 2026*
