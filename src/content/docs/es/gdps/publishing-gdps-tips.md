@@ -1,30 +1,30 @@
 ---
-title: Publishing your GDPS (+ some tips)
-description: How to publish your GDPS files correctly and where to upload them
+title: Publicando tu GDPS (+ algunos tips)
+description: Cómo publicar los archivos de tu GDPS correctamente y dónde subirlos
 ---
 
-Not sure where to upload your GDPS files or if you're setting them up correctly? This guide gives you some tips on how to upload your GDPS files the right way!
+No estás seguro de dónde publicar los archivos de tu GDPS o si los estás configurando correctamente? ¡Esta guía te da algunos tips de cómo subir los archivos de tu GDPS de forma correcta!
 
-## Tips for PC versions
-While making the archive for your GDPS' PC version, there is a good amount of stuff not to miss to avoid adding unnecessary file size. If you pre-install Geode, only include the `mods` and `resources` folders inside the `geode` folder.
-![Cleaning up the geode folder](../../../../assets/gdps/publishing-gdps-tips/geode-folder-cleanup.webp)
+## Tips para versiones de PC
+Mientras haces el archivo de la versión de PC de tu GDPS, hay una buena cantidad de cosas que no puedes olvidsr para evitar agregar peso innecesario a tu archivo. Si tu pre-instalas Geode, solamente incluye las carñetas de `mods` y `resources` dentro de la carpeta `geode`.
+![Limpiando la carpeta de geode](../../../../assets/gdps/publishing-gdps-tips/geode-folder-cleanup.webp)
 
-### For GDPSs with Globed servers
-If you have a custom Globed server, you can create a `globed-server-url.txt` file containing the URL to your Globed server in the root directory of your GDPS (where your .exe is located) so that players don't have to enter it manually!
-![Writing a globed-server-url.txt file](../../../../assets/gdps/publishing-gdps-tips/globed-file-example.webp)
+### Para GDPSs con servidores de Globed
+Si tienes un servidor personalizado de Globed, puedes crear un archivo llamado `globed-server-url.txt` con la URL de tu servidor de Globed dentro en el directorio principal de tu GDPS (donde está ubicado el .exe) ¡para que los jugadores no tengan que ingresarlo manualmente!
+![Escribiendo un archivo globed-server-url.txt](../../../../assets/gdps/publishing-gdps-tips/globed-file-example.webp)
 
-Once you're done with all of the above, select all files & folders inside your GDPS folder (**not** the GDPS folder itself) and compress them.
-![Explanations for compression](../../../../assets/gdps/publishing-gdps-tips/compression-explanations.webp)
+Una vez hecho todo lo anterior, selecciona todos los archivos y carpetas dentro de la carpeta de tu GDPS (**no** la carpeta  del GDPS en si misma) y comprimelos.
+![Explicaciones para comprimir](../../../../assets/gdps/publishing-gdps-tips/compression-explanations.webp)
 
-## Uploading your GDPS files
-Many people struggle to find a good free & permanent file host so here's a list (from most recommended to least recommended):
+## Subiendo los archivos del GDPS
+Mucha gente tiene problemas para encontrar un servicio que aloje archivos gratis y de manera permanente así que aquí hay una lista (desde lo más recomendados a los que no):
 - [Catbox](https://catbox.moe/) (max 200 MB)
-- [Pillowcase](https://pillows.su/) (max 200MB, 500MB if logged in)
-- [Google Drive](https://drive.google.com/) (max 15GB but leaks your name/email. Also check this: https://sites.google.com/site/gdocs2direct/)
+- [Pillowcase](https://pillows.su/) (max 200MB, 500MB si inicias sesión)
+- [Google Drive](https://drive.google.com/) (max 15GB pero filtra tu nombre/correo. Además revisa esto: https://sites.google.com/site/gdocs2direct/)
 - [Mediafire](https://www.mediafire.com/) (max 4GB)
 - [MEGA](https://mega.io/) (max 20GB)
 - [Dropbox](https://www.dropbox.com/) (max 2GB)
 
 -----
 
-*Last updated: July 13th, 2026*
+*Última actualización: 22 de octubre, 2026*
