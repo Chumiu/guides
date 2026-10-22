@@ -25,7 +25,7 @@ description: Все команды, которые вы можете испол�
 | `!epic` | `commandEpic` | Делает уровень эпическим. |
 | `!legendary` | `commandEpic` | Делает уровень легендарным. |
 | `!mythic` | `commandEpic` | Делает уровень мифическим. |
-| `!unfeature` | `commandFeature` | Снимает оценку. |
+| `!unfeature` | `commandFeature` | Снимает Featured с уровня. |
 | `!unepic` | `commandEpic` | Снимает эпическую оценку. |
 | `!unlegendary` | `commandEpic` | Снимает легендарную оценку. |
 | `!unmythic` | `commandEpic` | Снимает мифическую оценку. |
@@ -35,7 +35,7 @@ description: Все команды, которые вы можете испол�
 | --- | --- | --- |
 | `!daily` / `!da` | `commandDaily` | Устанавливает уровень как следующий ежедневный уровень. |
 | `!weekly` / `!w` | `commandWeekly` | Устанавливает уровень как следующий еженеедельный уровень. |
-| `!event` / `!ev <minutes> <reward ID> <amount>` | `commandEvent` | Ставит уровень как следующий ивентовый уровень на определённую длину. Добавить некоторые награды: `!event <minutes> <reward ID> <amount> <reward ID> <amount>...` [Идентификаторы наград](#rewards). |
+| `!event` / `!ev <minutes> <reward ID> <amount>` | `commandEvent` | Делает уровень ивент-уровнем на определённое время. Добавить несколько наград: `!event <minutes> <reward ID> <amount> <reward ID> <amount>...` [Идентификаторы наград](#Награды). |
 
 ### Монетки и Очки Креатора
 | Команда | Разрешение | Описание |
@@ -54,7 +54,7 @@ description: Все команды, которые вы можете испол�
 | `!description` / `!desc <description>` | `commandDescriptionOwn` / `commandDescriptionAll` | Изменение описания уровня. |
 | `!song` / `!s <song ID>` | `commandSongOwn` / `commandSongAll` | Меняет песню уровня. |
 | `!public` / `!pub` | `commandPublicOwn` / `commandPublicAll` | Делает уровень публичным. |
-| `!unlist` | `commandUnlistOwn` / `commandUnlistAll` | Делает уровень приватным. |
+| `!unlist` | `commandUnlistOwn` / `commandUnlistAll` | Скрывает уровень. |
 | `!ldm` | `commandLdmOwn` / `commandLdmAll` | Включает LDM на уровне. |
 | `!unldm` | `commandLdmOwn` / `commandLdmAll` | Выключает LDM на уровне. |
 | `!password` / `!pass` / `!p <6 digits>` | `commandPassOwn` / `commandPassAll` | Установить пароль для копирования уровня. Введите `000000` чтобы убрать его. |
@@ -70,9 +70,9 @@ description: Все команды, которые вы можете испол�
 ### Оценка
 | Команда | Разрешение | Описание |
 | --- | --- | --- |
-| `!rate` / `!r <награда> <сложность> <featured> <кол-во уровней>` | `commandRate` | Оценивает лист. `сложность`: `auto`, `easy`, `normal`, `hard`, `harder`, `insane`, или `demon`. `featured`: `0` = простая оценка, `1` = featured. `count`: уровней необходимо пройти для получения награды. Только если с `actionSuggestRating`, оно предлагает его вместо. [Идентификаторы наград](#rewards). |
+| `!rate` / `!r <награда> <сложность> <featured> <кол-во уровней>` | `commandRate` | Оценивает лист. `сложность`: `auto`, `easy`, `normal`, `hard`, `harder`, `insane`, или `demon`. `featured`: `0` = простая оценка, `1` = featured. `count`: уровней необходимо пройти для получения награды. Только если с `actionSuggestRating`, оно предлагает его вместо. [Идентификаторы наград](#Награды). |
 | `!rate` / `!f` | `commandFeature` | Делает лист Featured. |
-| `!unfeature` | `commandFeature` | Снимает оценку. |
+| `!unfeature` | `commandFeature` | Снимает Featured с уровня. |
 
 ### Управление
 | Команда | Разрешение | Описание |
