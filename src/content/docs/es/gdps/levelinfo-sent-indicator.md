@@ -1,29 +1,29 @@
 ---
-title: Enabling Level Info's Sent indicator
-description: How to configure Level Info's sent indicator to work on the GDPS you're playing on
+title: Habilitando el indicador de enviado en Level Info
+description: Cómo configurar el indicador de enciado del mod Level Info para hacer que funcione en el GDPS que estás jugando
 ---
 
 :::caution
-Currently, this method is "partially" supported by Level Info. Levels that aren't sent will display as "Failed", but levels that are sent will display as "Sent"
+Actualmente, este método está "parcialmente" soportado por Level Info. Niveles que han sido enviados se mostrarán como fallidos o con el mensaje "Failed", pero los niveles que son enviados se mostrarán como "Sent"
 :::
 
-[Level Info](https://geode-sdk.org/mods/m336.levelinfo)'s sent indicator does not work natively on GDPSs and therefore requires manual configuration; this guide covers how to set it up!
+El indicador de envío de [Level Info](https://geode-sdk.org/mods/m336.levelinfo) no funciona de manera nativa en los GDPS y además requiere configurarlo manualmente; ¡esta guía cubre cómo configurarlo!
 
-## Find your GDPS' sends endpoint
-First, find the full URL to the `sends.php` endpoint. It's usually located under `dashboard/api`
+## Encontrando el endpoint de envíos de tu GDPS
+Primero, encuentra la URL completa al endpoint `sends.php`. Este usualmente está ubicado en `dashboard/api`
 
-**Example:** `https://m336test.ps.fhgdps.com/dashboard/api/sends.php`
-![Example location for GDPS' sends endpoint](../../../../assets/gdps/levelinfo-sent-indicator/gdps-sends-endpoint-location.webp)
+**Ejemplo:** `https://m336test.ps.fhgdps.com/dashboard/api/sends.php`
+![Ejemplo de ubicación para el endpoint de envíos del GDPS](../../../../assets/gdps/levelinfo-sent-indicator/gdps-sends-endpoint-location.webp)
 
-## Set the custom sends endpoint
-Next, go to Level Info's settings and find "Custom Sends Endpoint". Paste the URL you found, and make sure to append `?level=` to the end
+## Insertando el endpoint de envíos personalizado
+Ahora, ve a los ajustes de Level Info y busca "Custom Sends Endpoint". Pega la URL que encontraste, y asegúrate de agregar `?level=` al final.
 
-**Example:** `https://m336test.ps.fhgdps.com/dashboard/api/sends.php?level=`
-![Setting the custom sends endpoint](../../../../assets/gdps/levelinfo-sent-indicator/setting-custom-sends-endpoint.webp)
+**Ejemplo:** `https://m336test.ps.fhgdps.com/dashboard/api/sends.php?level=`
+![Configurar el endpoint de envíos personalizado](../../../../assets/gdps/levelinfo-sent-indicator/setting-custom-sends-endpoint.webp)
 
-## Apply settings
-Save/apply the settings. The sent indicator should now work again!
+## Aplicar los cambios
+Guarda/aplica los cambios de los ajustes. ¡El indicador de envío debería funcionar de nuevo!
 
 -----
 
-*Last updated: July 27th, 2026*
+*Última actualización: 22 de octubre, 2026*
