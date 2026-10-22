@@ -67,7 +67,7 @@ export default defineConfig({
                     {
 						label: 'Publishing your GDPS (+ some tips)',
         				translations: { 
-							es: 'Publicar tu GDPS (+ algunos consejos)'
+							es: 'Publicar tu GDPS (+ algunos tips)'
 							fr: 'Mettre en ligne votre GDPS',
 							ru: 'Публикация вашего GDPS (+ несколько советов)',
 							ua: 'Публікація вашого GDPS (+ кілька порад)'
@@ -97,7 +97,7 @@ export default defineConfig({
                     {
 						label: "Growing your GDPS (+ some tips)",
         				translations: { 
-							es: "Hacer crecer tu GDPS (+ algunos consejos)",
+							es: "Hacer crecer tu GDPS (+ algunos tips)",
 							fr: "Développer votre GDPS",
 							ru: "Развитие вашего GDPS (+ несколько советов)",
 							ua: "Розвиток вашого GDPS (+ кілька порад)"
