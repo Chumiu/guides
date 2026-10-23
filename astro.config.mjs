@@ -131,6 +131,10 @@ export default defineConfig({
 							es: "Modificar las texturas de tu GDPS"
 						},
 						slug: 'gdps/editing-gdps-textures'
+					},
+                    {
+						label: "Self-hosting your own SFX converter",
+						slug: 'gdps/self-hosting-sfx-converter'
 					}
                 ]
             }

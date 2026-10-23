@@ -14,6 +14,7 @@ All guides are available in English, French, Spanish, Russian and Ukrainian. Rep
 - [Adding Custom Badges](https://guides.m336.dev/en/gdps/adding-custom-badges/): Give players custom in-game badges with the GDPS Badges mod
 - [Running a 24/7 Discord Radio Bot](https://guides.m336.dev/en/gdps/running-radio-bot/): Run a bot that plays random songs used on your GDPS
 - [Editing your GDPS textures](https://guides.m336.dev/en/gdps/editing-gdps-textures/): Edit and replace textures for your GDPS
+- [Self-hosting your own SFX converter](https://guides.m336.dev/en/gdps/self-hosting-sfx-converter/): Self-host your own SFX converter for your GDPS
 
 ## Miscealleanous
 
