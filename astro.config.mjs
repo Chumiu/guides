@@ -126,7 +126,10 @@ export default defineConfig({
 					},
                     {
 						label: "Editing your GDPS textures",
-        				translations: { fr: "Modifier les textures de votre GDPS" },
+        				translations: { 
+							fr: "Modifier les textures de votre GDPS",
+							es: "Modificar las texturas de tu GDPS"
+						},
 						slug: 'gdps/editing-gdps-textures'
 					}
                 ]
