@@ -28,4 +28,4 @@ Guarda/aplica los cambios de los ajustes. ¡El indicador de envío debería func
 
 *Traducido por [Izumi](https://discord.gg/mvbjWdC6cF)*
 
-*Última actualización: 22 de octubre, 2026*
+*Última actualización: 27 de julio, 2026*

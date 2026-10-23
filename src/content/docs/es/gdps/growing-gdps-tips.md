@@ -39,4 +39,4 @@ Me gustaría agradecer a [Izumi de GD Lightsync](https://discord.gg/mvbjWdC6cF) 
 
 *Traducido por [Izumi](https://discord.gg/mvbjWdC6cF)*
 
-*Última actualización: 22 de octubre, 2026*
+*Última actualización: 27 de julio, 2026*
