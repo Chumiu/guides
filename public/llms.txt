@@ -2,7 +2,7 @@
 
 > Practical guides for running and growing a Geometry Dash Private Server (GDPS): server setup, Geode mods, commands, textures and community tools. Aimed at GDPS owners and players. Maintained by M336.
 
-All guides are available in English, French, Russian and Ukrainian. Replace `/en/` in any URL with `/fr/`, `/ru/` or `/ua/`.
+All guides are available in English, French, Spanish, Russian and Ukrainian. Replace `/en/` in any URL with `/fr/`, `/es`, `/ru/` or `/ua/`.
 
 ## GDPS Guides
 
