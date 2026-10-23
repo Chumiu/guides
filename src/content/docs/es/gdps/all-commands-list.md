@@ -3,7 +3,7 @@ title: Lista de Todos los Comandos
 description: Todos los comands que puedes usar en un GDPS usando el fork de GMDprivateServer de MegaSa1nt
 ---
 
-Estos son todos los comandos disponibles en un GDPS usandl [ el fork de GMDprivateServer de MegaSa1nt](https://github.com/MegaSa1nt/GMDprivateServer/tree/master)!
+Estos son todos los comandos disponibles en un GDPS usandl [el fork de GMDprivateServer de MegaSa1nt](https://github.com/MegaSa1nt/GMDprivateServer/tree/master)!
 
 *Algunos comandos tienen argumentos opcionales no listados aquí por simplicidad.*
 
@@ -35,7 +35,7 @@ Estos son todos los comandos disponibles en un GDPS usandl [ el fork de GMDpriva
 | --- | --- | --- |
 | `!daily` / `!da` | `commandDaily` | Coloca el nivel como el siguiente daily. |
 | `!weekly` / `!w` | `commandWeekly` | Coloca el nivel cono el siguiente weekly. |
-| `!event` / `!ev <minutos> <ID de recompensa> <cantidad>` | `commandEvent` | Coloca el nivel como el próximo event por la duración especificada. Agregar multiples recomoensas: `!event <minutos> <ID de recompensa> <cantidad> <ID de recompensa> <cantidad>...` [IDs de recomoensas](#recompensas). |
+| `!event` / `!ev <minutos> <ID de recompensa> <cantidad>` | `commandEvent` | Coloca el nivel como el próximo event por la duración especificada. Agregar multiples recompensas: `!event <minutos> <ID de recompensa> <cantidad> <ID de recompensa> <cantidad>...` [IDs de recompensas](#recompensas). |
 
 ### Monedas y Creator Points
 | Comando | Permiso | Descripción |
@@ -98,7 +98,7 @@ Estos son todos los comandos disponibles en un GDPS usandl [ el fork de GMDpriva
 
 ![Ejemplo de comando de perfil](../../../../assets/gdps/all-commands-list/profile-command-example.webp)
 
-## Recomoensas
+## Recompensas
 Estas son las IDs de cada tipo de recompensa.
 
 ### Recompensas de Shards
@@ -115,7 +115,7 @@ Estas son las IDs de cada tipo de recompensa.
 | **13** | Light Shard |
 | **14** | Soul Shard |
 
-### Recomoensas de Íconos
+### Recompensas de Íconos
 | ID | Reward |
 | --- | --- |
 | **1001** | Cubo |
