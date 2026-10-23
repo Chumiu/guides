@@ -27,4 +27,6 @@ Mucha gente tiene problemas para encontrar un servicio que aloje archivos gratis
 
 -----
 
+*Traducido por [Izumi](https://discord.gg/mvbjWdC6cF)*
+
 *Última actualización: 22 de octubre, 2026*

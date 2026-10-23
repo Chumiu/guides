@@ -47,4 +47,6 @@ En los ajustes del mod, puedes activar y desactivar estos botones adicionales:
 
 -----
 
+*Traducido por [Izumi](https://discord.gg/mvbjWdC6cF)*
+
 *Última actualización: 20 de octubre, 2026*

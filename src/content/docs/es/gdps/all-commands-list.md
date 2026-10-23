@@ -144,4 +144,6 @@ Estas son las IDs de cada tipo de recompensa.
 
 -----
 
+*Traducido por [Izumi](https://discord.gg/mvbjWdC6cF)*
+
 *Última actualización: 20 de octubre, 2026*

@@ -84,4 +84,6 @@ En el [Discord Developer portal](https://discord.com/developers/applications), c
 
 -----
 
+*Traducido por [Izumi](https://discord.gg/mvbjWdC6cF)*
+
 *Última actualización: 22 de octubre, 2026*
