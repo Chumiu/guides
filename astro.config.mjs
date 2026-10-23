@@ -19,7 +19,7 @@ export default defineConfig({
 		defaultLocale: 'en',
 		locales: {
 			en: { label: 'English' },
-			es: { label: 'Español' },
+			es: { label: 'Español', lang: "es" },
 			fr: { label: 'Français', lang: "fr" },
 			ru: { label: 'Русский', lang: "ru" },
 			ua: { label: 'Українська', lang: "ua" }
