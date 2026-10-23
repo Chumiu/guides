@@ -58,7 +58,7 @@ export default defineConfig({
 						label: 'Custom RobTop-Like Rate Button',
         				translations: { 
 							es: 'Botón de Rate Personalizado estilo RobTop',
-							fr: 'Bouton de Rate Personnalisé' ,
+							fr: 'Bouton de Rate Personnalisé',
 							ru: 'Кастомная кнопка рейта, как у RobTop',
 							ua: 'Кастомна кнопка рейту, як у RobTop'
 						},
@@ -67,7 +67,7 @@ export default defineConfig({
                     {
 						label: 'Publishing your GDPS (+ some tips)',
         				translations: { 
-							es: 'Publicar tu GDPS (+ algunos tips)'
+							es: 'Publicar tu GDPS (+ algunos tips)',
 							fr: 'Mettre en ligne votre GDPS',
 							ru: 'Публикация вашего GDPS (+ несколько советов)',
 							ua: 'Публікація вашого GDPS (+ кілька порад)'
