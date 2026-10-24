@@ -16,7 +16,7 @@ This guide will show you how to self-host an SFX converter for your GDPS using e
 ## Requirements
 To be able to follow the rest of this guide, you will need to make sure that:
 - You have a GDPS using [MegaSa1nt's GMDprivateServer fork](https://github.com/MegaSa1nt/GMDprivateServer/tree/master)
-- You have a device/ server capable of running 24/7
+- You have a device/server capable of running 24/7
 - You have a domain name managed through [Cloudflare](https://www.cloudflare.com/)
 - You have a stable internet connection
 
@@ -27,7 +27,7 @@ On Linux, to keep your application running even after exiting your SSH session, 
 
 ### Setting up MegaSa1nt's converter
 1. Download [Node.js](https://nodejs.org/en/download), preferably a recent LTS version.
-2. Download the [repository as a ZIP archive](https://github.com/MegaSa1nt/GDPS-ConvertSFX/archive/refs/heads/main.zip) onto a device or server that can run 24/7, or clone it using the following command: `git clone https://github.com/MegaSa1nt/GDPS-ConvertSFX.git`.
+2. [Download the repository](https://github.com/MegaSa1nt/GDPS-ConvertSFX/archive/refs/heads/main.zip) onto a device or server that can run 24/7, or clone it using the following command: `git clone https://github.com/MegaSa1nt/GDPS-ConvertSFX.git`.
 3. Then, in its (decompressed) folder, install the dependencies by running `npm install`, then feel free to configure [`config.json`](https://github.com/MegaSa1nt/GDPS-ConvertSFX/blob/main/config.json) according to your needs.
 4. Finally, start the converter by running `node .` from within the repository folder!
 
@@ -63,7 +63,7 @@ Now, open [`config/dashboard.php`](https://github.com/MegaSa1nt/GMDprivateServer
 
 Here, you can choose to:
 - **Use only your own converter** by removing the other converters from the configuration.
-![Using only your self-hosted SFX converter on your GDPS](../../../../assets/gdps/self-hosting-sfx-converter/using-with-other-converters.webp)
+![Using only your self-hosted SFX converter on your GDPS](../../../../assets/gdps/self-hosting-sfx-converter/using-only-self-hosted-converter.webp)
 
 - **Keep the existing converters and add your own** so that all of them can be used.
 ![Using your self-hosted SFX converter along with other SFX converters on your GDPS](../../../../assets/gdps/self-hosting-sfx-converter/using-with-other-converters.webp)

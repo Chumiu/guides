@@ -56,7 +56,7 @@ export default defineConfig({
                 items: [
                     {
 						label: 'Custom RobTop-Like Rate Button',
-        				translations: { 
+        				translations: {
 							es: 'Botón de Rate Personalizado estilo RobTop',
 							fr: 'Bouton de Rate Personnalisé',
 							ru: 'Кастомная кнопка рейта, как у RobTop',
@@ -66,7 +66,7 @@ export default defineConfig({
 					},
                     {
 						label: 'Publishing your GDPS (+ some tips)',
-        				translations: { 
+        				translations: {
 							es: 'Publicar tu GDPS (+ algunos tips)',
 							fr: 'Mettre en ligne votre GDPS',
 							ru: 'Публикация вашего GDPS (+ несколько советов)',
@@ -86,7 +86,7 @@ export default defineConfig({
 					},
                     {
 						label: "Enabling Level Info's Sent indicator",
-        				translations: { 
+        				translations: {
 							es: "Activar el Indicador de Envío de Level Info",
 							fr: "Activer l'indicateur Sent Level Info",
 							ru: "Включение индикатора 'Level Info's Sent'",
@@ -96,7 +96,7 @@ export default defineConfig({
 					},
                     {
 						label: "Growing your GDPS (+ some tips)",
-        				translations: { 
+        				translations: {
 							es: "Hacer crecer tu GDPS (+ algunos tips)",
 							fr: "Développer votre GDPS",
 							ru: "Развитие вашего GDPS (+ несколько советов)",
@@ -106,7 +106,7 @@ export default defineConfig({
 					},
                     {
 						label: "Adding Custom Badges to your GDPS",
-        				translations: { 
+        				translations: {
 							es: "Agregar Insignias Personalizadas a tu GDSP",
 							fr: "Ajouter des Badges Personnalisés",
 							ru: "Добавление пользовательских значков",
@@ -116,7 +116,7 @@ export default defineConfig({
 					},
                     {
 						label: "Running a 24/7 Discord Radio Bot",
-        				translations: { 
+        				translations: {
 							es: "Tener un Bot de Radio de Discord 24/7",
 							fr: "Avoir un bot Discord Radio 24/7",
 							ru: "Запуск круглосуточного радио-бота в Discord",
@@ -126,7 +126,7 @@ export default defineConfig({
 					},
                     {
 						label: "Editing your GDPS textures",
-        				translations: { 
+        				translations: {
 							fr: "Modifier les textures de votre GDPS",
 							es: "Modificar las texturas de tu GDPS"
 						},
@@ -134,6 +134,9 @@ export default defineConfig({
 					},
                     {
 						label: "Self-hosting your own SFX converter",
+						translations: {
+							fr: "Auto-héberger un convertisseur de SFXs"
+						},
 						slug: 'gdps/self-hosting-sfx-converter'
 					}
                 ]
