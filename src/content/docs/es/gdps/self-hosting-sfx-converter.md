@@ -1,73 +1,73 @@
 ---
-title: Self-hosting your own SFX converter
-description: How to self-host your own SFX converter for your GDPS
+title: Hostear tu propio convertidor de SFX
+description: Cómo hostear tu propio convertidor de SFX para tu GDPS
 ---
 
 :::note
-This guide is primarily intended for GDPS owners/administrators. If you're a regular player and SFX conversion is slow, you can ask your GDPS owner to follow this guide :)
+Está guía está dirigida principalmente para dueños/administradores de GDPSs. Si eres un jugador regular y la conversación de SFX es lenta, puedes decirle al dueño de tu GDPS que siga esta guía :)
 :::
 
 :::caution
-This guide is only useful if you allow your players to upload their own SFXs via files.
+Esta guía sólo es útil si permites a tus jugadores sus propios SFXs mediante archivos.
 :::
 
-This guide will show you how to self-host an SFX converter for your GDPS using either [MegaSa1nt's original JavaScript implementation](#setting-up-megasa1nts-converter) or [M336's C# rewrite](#setting-up-m336s-converter)!
+Esta guía te enseñará cómo hostear por tu cuenta un convertidor de SFX propio para tu GDPS usando [la implementación original de MegaSa1nt de JavaScript](#configurando-el-convertidor-de-megasa1nt) o [la reescritura en C# de M336](#setting-up-m336s-converter)!
 
-## Requirements
-To be able to follow the rest of this guide, you will need to make sure that:
-- You have a GDPS using [MegaSa1nt's GMDprivateServer fork](https://github.com/MegaSa1nt/GMDprivateServer/tree/master)
-- You have a device/server capable of running 24/7
-- You have a domain name managed through [Cloudflare](https://www.cloudflare.com/)
-- You have a stable internet connection
-
-## Setting up the converter
+## Requisitos
+Para poder seguir el resto de esta guía, debes estar seguro que:
+- Tienes ub GDPS usando [el form de GMDPrivateServer de MegaSa1nt](https://github.com/MegaSa1nt/GMDprivateServer/tree/master)
+- Tienes un dispositivo/servidor capaz de correr 24/7
+- Tienes un nombre de dominio administrado mediante [Cloudflare](https://www.cloudflare.com/)
+- Tienes una conexión a internet estable
+- 
+## Configurando el convertidor
 :::tip
-On Linux, to keep your application running even after exiting your SSH session, you can use solutions such as [PM2](https://pm2.keymetrics.io/docs/faq/) or [Screen](https://www.geeksforgeeks.org/linux-unix/screen-command-in-linux-with-examples/)!
+En Linux, para mantener tu aplicación corriendo incluso después de salir de tu sesión de SSH, puedes usar algunas soluciones como [PM2](https://pm2.keymetrics.io/docs/faq/) o [Screen](https://www.geeksforgeeks.org/linux-unix/screen-command-in-linux-with-examples/)!
 :::
 
-### Setting up MegaSa1nt's converter
-1. Download [Node.js](https://nodejs.org/en/download), preferably a recent LTS version.
-2. [Download the repository](https://github.com/MegaSa1nt/GDPS-ConvertSFX/archive/refs/heads/main.zip) onto a device or server that can run 24/7, or clone it using the following command: `git clone https://github.com/MegaSa1nt/GDPS-ConvertSFX.git`.
-3. Then, in its (decompressed) folder, install the dependencies by running `npm install`, then feel free to configure [`config.json`](https://github.com/MegaSa1nt/GDPS-ConvertSFX/blob/main/config.json) according to your needs.
-4. Finally, start the converter by running `node .` from within the repository folder!
+### Configurando el convertidor de MegaSa1nt
+1. Descarga [Node.js](https://nodejs.org/en/download), preferiblemente una versión reciente de LTS.
+2. [Descarga el repositorio](https://github.com/MegaSa1nt/GDPS-ConvertSFX/archive/refs/heads/main.zip) en un dispositivo o servidor que pueda correr 24/7, o puedes clonarlo usando el siguiente comando: `git clone https://github.com/MegaSa1nt/GDPS-ConvertSFX.git`.
+3. Luego, en su (extraída) carpeta, instala las dependencias ejecutando  el comando `npm install`, luego siéntete libre de configurar el archivo [`config.json`](https://github.com/MegaSa1nt/GDPS-ConvertSFX/blob/main/config.json) acorde a lo que necesites.
+4. Para terminar, inicia el convertidor ejecutando `node .` dentro de la carpeta del repositorio!
 
-### Setting up M336's converter
-1. Download the appropriate precompiled binary for your system from the [latest releases](https://github.com/M336G/SFXConverter/releases/latest).
-2. Then, in its (decompressed) folder, feel free to fill out a `.env` file according to your needs (check out [.env.example](https://github.com/M336G/SFXConverter/blob/main/.env.example) for an example).
-3. Finally, start the converter by running the binary from within the extracted folder (on Linux, you may need to make it executable first using `chmod +x <binary_name>`).
+### Configurar el convertidor de M336
+1. Descarga el binario precompilado apropiado para tu sistema desde las [releases recientes](https://github.com/M336G/SFXConverter/releases/latest).
+2. Luego, en su (extraída) carpeta, siéntete libre de llenar un archivo `.env` acorde a lo que necesites (revisa [.env.example](https://github.com/M336G/SFXConverter/blob/main/.env.example) para un ejemplo).
+3. Para finalizar, inicia el convertidor ejecutando el binario dentro de la carpeta extraída (en Linux, primero vas a necesitar hacerlo ejecutable utilizando el comando `chmod +x <binary_name>`).
 
-## Making your converter accessible over the internet with Cloudflare Tunnel
+## Haciendo tu convertidor accesible dentro del internet con Cloudflare Tunnel
 :::note
-There are several ways to make your converter publicly accessible. This guide uses Cloudflare Tunnel because it's one of the most convenient solutions.
+Existen varias manteras de hafer tu convertidor accesible publicando. Esta guía usa Cloudflare Tunnel porque es una de las soluciones más convenientes.
 
-Feel free to use another method if you're familiar with it!
+Eres libre de usar cualquier otro método si estás familiarizado con ese!
 :::
 
 :::caution
-Please note that Cloudflare Tunnel has a 100 MB upload limit.
+Porfavor nota que Cloudflare Tunnel tiene un límite de subida de 100 MB.
 :::
 
-To let people use your converter from your GDPS dashboard, you'll need to make it accessible over the internet.
+Para dejar que la gente utilize el convertidor desde la dashboard del GDPS, necesitarás hacerlo accesible en internet.
 
-1. Open the [Cloudflare dashboard](https://dash.cloudflare.com/), navigate to **Networking > Tunnels**, and click **Create Tunnel**.
-2. Give your tunnel a name, then follow the instructions to install `cloudflared` as a service on your server.
-![Creating a Cloudflare tunnel](../../../../assets/gdps/self-hosting-sfx-converter/creating-cloudflare-tunnel.webp)
+1. Abre la [dashboard de Cloudflare](https://dash.cloudflare.com/), dirígete hasta **Networking > Tunnels**, y haz click en **Create Tunnel**.
+2. Dale un nombre a tu tunnel, y sigue las instrucciones para instalar `cloudflared` como un servicio en tu servidor.
+![Creando un Cloudflare tunnel](../../../../assets/gdps/self-hosting-sfx-converter/creating-cloudflare-tunnel.webp)
 
-3. Once the tunnel is set up, open it, navigate to **Routes**, click **Add route**, and select **Published application**. Configure the route to point to the converter URL you want. Then, if you haven't changed the converter's port, use `http://localhost:24157` as the service URL.
-![Tunneling the SFX converter via a Cloudflare published application](../../../../assets/gdps/self-hosting-sfx-converter/adding-published-application.webp)
+3. Una vez que el tunnel esté configurado, ábrelo, dirígete a **Routes**, haz click en **Add route**, y selecciona **Published application**. Configura la ruta al punto de la URL del convertidor que quieras. Entonces, si no haz cambiado el puerto del convertidor, usa `http://localhost:24157` como la URL del servicio.
+![Construyendo el tunnel del convertidor de SFX mediante una aplicación publicada de Cloudflare](../../../../assets/gdps/self-hosting-sfx-converter/adding-published-application.webp)
 
-4. That's it! Your converter should now be accessible over the internet.
+4. ¡Eso es todo! Ahora tu convertidor debería ser accesible en el internet.
 
-## Using your converter on your GDPS
-Now, open [`config/dashboard.php`](https://github.com/MegaSa1nt/GMDprivateServer/blob/67ede474cbfde8c932ede53198b743e1ffb3f3b7/config/dashboard.php#L59-L64) in your GDPS installation.
+## Usando el convertidor en tu GDPS
+Ahora, abre [`config/dashboard.php`](https://github.com/MegaSa1nt/GMDprivateServer/blob/67ede474cbfde8c932ede53198b743e1ffb3f3b7/config/dashboard.php#L59-L64) en la instalación de tu GDPS.
 
-Here, you can choose to:
-- **Use only your own converter** by removing the other converters from the configuration.
-![Using only your self-hosted SFX converter on your GDPS](../../../../assets/gdps/self-hosting-sfx-converter/using-only-self-hosted-converter.webp)
+Aquí, puedes elegir en:
+- **Utilizar únicamente tu propio convertidor** removiendo los otros convertidores desde la configuración.
+![Usando sólo el convertidor de SFX que hostead en tu GDPS](../../../../assets/gdps/self-hosting-sfx-converter/using-only-self-hosted-converter.webp)
 
-- **Keep the existing converters and add your own** so that all of them can be used.
-![Using your self-hosted SFX converter along with other SFX converters on your GDPS](../../../../assets/gdps/self-hosting-sfx-converter/using-with-other-converters.webp)
+- **Mantener los servidores existented y agregar el tuyo** para que todos ellos puedan ser usados.
+![Usando el convertidor de SFX que hosteas junto con otros convertidores de SFX en tu GDPS](../../../../assets/gdps/self-hosting-sfx-converter/using-with-other-converters.webp)
 
 -----
 
-*Last updated: October 24th, 2026*
+*Última actualización: 24 de octubre, 2026*
