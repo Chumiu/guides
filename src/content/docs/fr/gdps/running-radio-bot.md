@@ -64,6 +64,10 @@ Le fichier doit être publiquement accessible (via HTTP/HTTPS).
 3. Enfin, démarrez le bot avec `bun run start` !
 
 :::tip
+Sur Linux, pour permettre à votre application de continuer à tourner même après avoir fermé votre session SSH, vous pouvez utiliser des outils tels que [PM2](https://pm2.keymetrics.io/docs/faq/) ou [Screen](https://www.geeksforgeeks.org/linux-unix/screen-command-in-linux-with-examples/) !
+:::
+
+:::note
 **Assurez-vous que :**
 - Le bot soit en ligne sur Discord
 - Il joue de la musique dans le salon souhaité
@@ -85,4 +89,4 @@ Sur le [Discord Developer portal](https://discord.com/developers/applications), 
 
 -----
 
-*Dernièrement mis à jour : 27 Juillet 2026*
+*Dernièrement mis à jour : 24 Octobre 2026*

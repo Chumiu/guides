@@ -21,6 +21,10 @@ To be able to follow the rest of this guide, you will need to make sure that:
 - You have a stable internet connection
 
 ## Setting up the converter
+:::tip
+On Linux, to keep your application running even after exiting your SSH session, you can use solutions such as [PM2](https://pm2.keymetrics.io/docs/faq/) or [Screen](https://www.geeksforgeeks.org/linux-unix/screen-command-in-linux-with-examples/)!
+:::
+
 ### Setting up MegaSa1nt's converter
 1. Download [Node.js](https://nodejs.org/en/download), preferably a recent LTS version.
 2. Download the [repository as a ZIP archive](https://github.com/MegaSa1nt/GDPS-ConvertSFX/archive/refs/heads/main.zip) onto a device or server that can run 24/7, or clone it using the following command: `git clone https://github.com/MegaSa1nt/GDPS-ConvertSFX.git`.
@@ -66,4 +70,4 @@ Here, you can choose to:
 
 -----
 
-*Last updated: October 23rd, 2026*
+*Last updated: October 24th, 2026*

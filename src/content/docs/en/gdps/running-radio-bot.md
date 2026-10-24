@@ -63,6 +63,10 @@ The file must be publicly accessible (via HTTP/HTTPS).
 3. Finally, start the bot with `bun run start`!
 
 :::tip
+On Linux, to keep your application running even after exiting your SSH session, you can use solutions such as [PM2](https://pm2.keymetrics.io/docs/faq/) or [Screen](https://www.geeksforgeeks.org/linux-unix/screen-command-in-linux-with-examples/)!
+:::
+
+:::note
 **Make sure that:**
 - The bot is online on Discord
 - It plays songs in the desired channel
@@ -84,4 +88,4 @@ On the [Discord Developer portal](https://discord.com/developers/applications), 
 
 -----
 
-*Last updated: July 27th, 2026*
+*Last updated: October 24th, 2026*
